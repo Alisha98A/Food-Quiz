@@ -1,3 +1,113 @@
+# Welcome to my [Food Quiz](www.GITHUBLÄNK.se)
+
+Test your general knowledge in food and find out how much how you actually know! 
+
+beskriv intro HÄR
+
+![Responsice Mockup](lägg in screenshot från https://ui.dev/amiresponsive)
+Visit the deployed site: Food Quiz
+
+
+
+
+
+
+
+
+
+For educational intents within Code Institute’s Diploma in Web Application Development Course, this endeavor was crafted employing HTML5, CSS3, and JavaScript.
+
+## CONTENTS
+
+* [User Experience](#user-experience-ux)
+  * [User Stories](#user-stories)
+
+* [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Wireframes](#wireframes)
+  * [Features](#features)
+    * [The Home Page](#the-home-page)
+    * [The Game Page](#the-quiz-page)
+    * [The High Scores Page](#the-high-scores-page)
+    * [The 404 Error Page](#the-404-error-page)
+    * [Future Implementations](#future-implementations)
+  * [Accessibility](#accessibility)
+
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
+* [Testing](#testing)
+  * [Solved Bugs](#solved-bugs)
+  * [Known Bugs](#known-bugs)
+  
+* [Credits](#credits)
+  * [Code Used](#code-used)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
+
+- - -
+
+## User Experience
+
+The first step was to structure everything out using Figma. Since my website is about children, I thought of having a colorful website. And since I want a very simple and basic site, I’m only using two main colors: orange and light blue. The layout is simple, with the logo (Love Children Foundation) to the top left and navigation bar menu to the right.  
+Directly under navigation bar menu, we have a big picture of some happy African kids. I chose this image because it represents what the whole website Is about - children, and specifically African children. On the picture, we can see kids that are smiling towards the camera. They look happy. The images and layout from Figma is not exactly how it turned out in the end, but it was a good starting point referring to.
+
+![Figma strucute](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_figma.png?raw=true)
+
+## Features
+
+### Existing Features
+
+- **Navigation Bar**
+
+  - Featured on all 6 pages (including 404 and thank you page). The navigation bar is responsive & include links to Logo, About Us, Our Projects & Support Us page.
+  - Navigation bar is identical on all pages for easy navigation, meaning, you can navigate from whatever page you're currently at. Without having to go through the "back" button.
+  - Navigation bar menu have submenus, for example when About Us is hovered/clicked on, submenu Our Story & Vision will be displayed. These submenus will take you directly to the content on the chosen page (by clicking of one of the submenus)
+
+![Nav Bar](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_nav.png?raw=true)
+
+- **The Homepage Image**
+  - The homepage consists of a big eyecatching image of happy children looking at the camera.
+  - The image is directly related to the logo, Love Children Foundation, which makes it clear that the website is about children.
+
+![Homepage Page](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_homepage.png?raw=true)
+
+
+- **Support Links**
+  - 1
+  - 1
+  - 1
+
+![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_support_links.png?raw=true)
+
+- **Typography**
+  - There are three fonts used throughout the page:
+ 1. 1
+ 2. 1
+ 3. 1
+
+- **Anchor tags**
+  - 1
+  
+  - **Images**
+  -  1
+  - 2
+  -  3 
+
+
+
+--------------------------------------------------------------------------------------
+BELOW IS EARLIER CONTENT
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome,
