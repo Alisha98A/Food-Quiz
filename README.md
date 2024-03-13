@@ -1,21 +1,15 @@
-# Welcome to my [Food Quiz](www.GITHUBLÄNK.se)
+# Food Quiz: A Deliciously Interactive Experience
 
-Test your general knowledge in food and find out how much how you actually know! 
+Welcome to the Food Quiz project! With this interactive and entertaining quiz you can test your knowledge of different cuisines, ingredients and culinary traditions from around the world. Whether you're a seasoned foodie or just someone who likes to explore different flavors, this quiz will tantalize your taste buds and challenge your culinary knowledge.
 
-beskriv intro HÄR
+Visit the deployed site: [Food Quiz](www.link.se)
 
-![Responsice Mockup](lägg in screenshot från https://ui.dev/amiresponsive)
-Visit the deployed site: Food Quiz
-
+![Responsice Mockup](https://ui.dev/amiresponsive)
 
 
 
 
-
-
-
-
-For educational intents within Code Institute’s Diploma in Web Application Development Course, this endeavor was crafted employing HTML5, CSS3, and JavaScript.
+This project was created with HTML5, CSS3 and JavaScript for the " Diploma in Web Application Development" course at Code Institute.
 
 ## CONTENTS
 
@@ -56,38 +50,51 @@ For educational intents within Code Institute’s Diploma in Web Application Dev
 
 - - -
 
-## User Experience
+## User Experience (UX)
 
-The first step was to structure everything out using Figma. Since my website is about children, I thought of having a colorful website. And since I want a very simple and basic site, I’m only using two main colors: orange and light blue. The layout is simple, with the logo (Love Children Foundation) to the top left and navigation bar menu to the right.  
-Directly under navigation bar menu, we have a big picture of some happy African kids. I chose this image because it represents what the whole website Is about - children, and specifically African children. On the picture, we can see kids that are smiling towards the camera. They look happy. The images and layout from Figma is not exactly how it turned out in the end, but it was a good starting point referring to.
+### User Stories
 
-![Figma strucute](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_figma.png?raw=true)
+#### First Time Visitor Goals
+* **User story 1: As a first-time visitor**
+
+* I'm interested in participating in a captivating online food quiz to enhance my overall knowledge. I want to have the flexibility to join and play at any time, from any location.
+* I want clear instructions on how to play the game.
+* I want the website to be responsive for my device.
+* I want the website to be easy navigated.
+
+#### Returning Visitor Goals
+* **User story 2: As a returning visitor**
+
+* I would like to have the option of choosing a difficulty level that matches my experience, which I will assess when I first interact with the website.
+
+#### Frequent Visitor Goals
+* **User story 3: As a frequent visitor**
+
+* I am keen to provide feedback on my gaming experience via a simple and user-friendly form, with the expectation that my suggestions or reported issues will be taken into account in future updates to improve the quiz game.
+* I also want to log my score so I can see how I performed earlier.
+* I want to be able to share my result on social media platforms, for a more fun experience.
+
+## Design
+
+### Colour Scheme
+
+I have used an image to cover the whole site, as a background. The background image contains different colours that symbolise food. Therefore, I have kept the rest of the content in white or yellow to ensure that the colours are not too overwhelming for the user. The colours displayed on the website are vibrant and eye-catching while ensuring a seamless experience for the user.
+
+![Figma strucute](x)
 
 ## Features
-
 ### Existing Features
 
-- **Navigation Bar**
-
-  - Featured on all 6 pages (including 404 and thank you page). The navigation bar is responsive & include links to Logo, About Us, Our Projects & Support Us page.
-  - Navigation bar is identical on all pages for easy navigation, meaning, you can navigate from whatever page you're currently at. Without having to go through the "back" button.
-  - Navigation bar menu have submenus, for example when About Us is hovered/clicked on, submenu Our Story & Vision will be displayed. These submenus will take you directly to the content on the chosen page (by clicking of one of the submenus)
-
-![Nav Bar](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_nav.png?raw=true)
-
-- **The Homepage Image**
-  - The homepage consists of a big eyecatching image of happy children looking at the camera.
-  - The image is directly related to the logo, Love Children Foundation, which makes it clear that the website is about children.
-
-![Homepage Page](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_homepage.png?raw=true)
+- **Engaging interface:** The quiz has a user-friendly interface that provides a seamless and enjoyable experience for players of all ages.
+- **Interactive Gameplay:**  Immerse yourself in a series of thought-provoking questions that will whet your appetite for culinary knowledge. Each question is carefully crafted to keep you engaged and entertained.
+- **Diverse categories:**  Explore a wide range of culinary topics, including regional cuisines, exotic ingredients, famous dishes and culinary trivia.
+- **Easy to play:** Whether you're a beginner or a seasoned food lover, the quiz is easy to play, with straightforward instructions and intuitive controls.
+- **Instant feedback:** You get instant feedback after each question to track your progress and learn interesting facts about the world of food.
+- **Score tracking:** Keep track of your score as you progress through the quiz. Challenge yourself to get a perfect score or compete with friends to see who knows the most about food.
+- **Vibrant visuals:** Immerse yourself in the colorful world of food with captivating visuals that will leave you wanting more.
+- **Responsive design:** Whether you're playing on a desktop computer, tablet or smartphone, the quiz is optimized for all screen sizes, ensuring a consistent and enjoyable experience across all devices.
 
 
-- **Support Links**
-  - 1
-  - 1
-  - 1
-
-![Support Links ](https://github.com/Alisha98A/Love-Children-Foundation/blob/main/documentation/love_children_foundation_support_links.png?raw=true)
 
 - **Typography**
   - There are three fonts used throughout the page:
@@ -101,9 +108,23 @@ Directly under navigation bar menu, we have a big picture of some happy African 
   - **Images**
   -  1
   - 2
-  -  3 
+  -  3
+  -  
+  ## Contributions:
+We welcome contributions from fellow food enthusiasts and developers who share our passion for creating engaging and educational experiences. Whether you have ideas for new quiz questions, suggestions for improving the user interface, or code improvements to optimize performance, I would love to hear from you. Fork the repository, make your changes and submit a pull request (or, fill in the feedback form at the [deployed site](www.link.com)) – together we can make the Food Quiz project even more delicious!
+
+## Credits
+
+### General reference
+- Got help with README.md structure from [Kera's README file](https://github.com/kera-cudmore/readme-examples/edit/main/README.md)
+- This project was inspired by my love of food and my desire to share this passion with others. I wholeheartedly thank the contributors and sources of inspiration who helped me bring this project to life.
 
 
+### Content
+  - x
+
+### Media
+  -  [description](x)
 
 --------------------------------------------------------------------------------------
 BELOW IS EARLIER CONTENT
