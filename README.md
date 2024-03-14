@@ -55,12 +55,12 @@ This project was created with HTML5, CSS3 and JavaScript for the " Diploma in We
 ### User Stories
 
 #### First Time Visitor Goals
-* **User story 1: As a first-time visitor**
+* **User story 1: As someone new to the site**
 
-* I'm interested in participating in a captivating online food quiz to enhance my overall knowledge. I want to have the flexibility to join and play at any time, from any location.
-* I want clear instructions on how to play the game.
-* I want the website to be responsive for my device.
-* I want the website to be easy navigated.
+* I'm eager to engage in an engaging online food quiz to broaden my culinary knowledge. I seek the convenience of being able to participate from anywhere, at any time.
+* Clear and concise instructions on how to play the game are essential to me.
+* I expect the website to adapt seamlessly to my device.
+* Navigating through the website should be intuitive and straightforward.
 
 #### Returning Visitor Goals
 * **User story 2: As a returning visitor**
@@ -68,19 +68,36 @@ This project was created with HTML5, CSS3 and JavaScript for the " Diploma in We
 * I would like to have the option of choosing a difficulty level that matches my experience, which I will assess when I first interact with the website.
 
 #### Frequent Visitor Goals
-* **User story 3: As a frequent visitor**
+* **User story 3: Being a regular user of the platform**
 
-* I am keen to provide feedback on my gaming experience via a simple and user-friendly form, with the expectation that my suggestions or reported issues will be taken into account in future updates to improve the quiz game.
-* I also want to log my score so I can see how I performed earlier.
-* I want to be able to share my result on social media platforms, for a more fun experience.
+* I'm enthusiastic about sharing my feedback on the gaming experience through a straightforward and user-friendly form. I anticipate that my suggestions and reported issues will be considered for future updates, enhancing the quality of the quiz game.
+* Tracking my scores over time is important to me, allowing me to monitor my performance and progress.
+* I desire the ability to effortlessly share my results on various social media platforms, adding to the enjoyment of the experience.
 
 ## Design
 
 ### Colour Scheme
 
-I have used an image to cover the whole site, as a background. The background image contains different colours that symbolise food. Therefore, I have kept the rest of the content in white or yellow to ensure that the colours are not too overwhelming for the user. The colours displayed on the website are vibrant and eye-catching while ensuring a seamless experience for the user.
+I have used an image to cover the whole site, as a background. The background image displays food in a clean way and has many colours in it. The colours displayed on the website are vibrant and eye-catching while ensuring a seamless experience for the user.
 
-![Figma strucute](x)
+
+
+### Typography
+  - There are three fonts used throughout the page:
+ 1. example
+ 2. example
+ 3. example
+
+### Imagery
+
+As the quiz is about food, I have added a picture of neatly arranged food to the background of the page so that the user knows what the quiz is about. 
+
+### Wireframes
+
+Wireframes were created for mobile, tablet and desktop using [Figma](https://www.figma.com/)
+
+! Insert images !
+
 
 ## Features
 ### Existing Features
@@ -96,28 +113,49 @@ I have used an image to cover the whole site, as a background. The background im
 
 
 
-- **Typography**
-  - There are three fonts used throughout the page:
- 1. 1
- 2. 1
- 3. 1
 
-- **Anchor tags**
-  - 1
-  
-  - **Images**
-  -  1
-  - 2
-  -  3
-  -  
+
+### Frameworks, Libraries & Programs Used
+
+* [Figma](https://www.figma.com/) - Used to create wireframes.
+
+* [Git](https://git-scm.com/) - For version control.
+
+* [Github](https://github.com/) - To save and store the files for the website.
+
+* [GitPod](https://gitpod.io/) - IDE used to create the site.
+
+* [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
+
+* [jQuery](https://jquery.com/) - A JavaScript library.
+
+* [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+* [TinyPNG](https://tinypng.com/) To compress images
+
+* [Pixelied](https://pixelied.com/convert/jpg-converter/jpg-to-webp) To convert images to webp format.
+
+* [Favicon.io](https://favicon.io/) To create favicon.
+
+* [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+
+* [Open Trivia DataBase](https://opentdb.com/) - API used for the trivia questions.
+
+* [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) - A Google Chrome extension that allows you to view JSON either as raw data or parsed.
+ 
+* [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - A Google Chrome extension enabling you to view your site from the perspective of individuals with accessibility needs.
+
+* [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - A Google Chrome extension for spell-checking your webpage, designed to identify spelling errors in both your site and README.
+
+    
   ## Contributions:
 We welcome contributions from fellow food enthusiasts and developers who share our passion for creating engaging and educational experiences. Whether you have ideas for new quiz questions, suggestions for improving the user interface, or code improvements to optimize performance, I would love to hear from you. Fork the repository, make your changes and submit a pull request (or, fill in the feedback form at the [deployed site](www.link.com)) – together we can make the Food Quiz project even more delicious!
 
 ## Credits
 
 ### General reference
-- Got help with README.md structure from [Kera's README file](https://github.com/kera-cudmore/readme-examples/edit/main/README.md)
 - This project was inspired by my love of food and my desire to share this passion with others. I wholeheartedly thank the contributors and sources of inspiration who helped me bring this project to life.
+- Got help with README.md structure from [Kera's README file](https://github.com/kera-cudmore/readme-examples/edit/main/README.md)
 
 
 ### Content
@@ -125,6 +163,13 @@ We welcome contributions from fellow food enthusiasts and developers who share o
 
 ### Media
   -  [description](x)
+
+
+
+
+
+
+
 
 --------------------------------------------------------------------------------------
 BELOW IS EARLIER CONTENT
