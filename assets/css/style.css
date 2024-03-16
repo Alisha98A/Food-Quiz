@@ -6,7 +6,7 @@
 
 :root {
   /*----------- COLOURS -----------*/
-  --orange: #fdc57b; /*fallback color for background in case background image does not load*/
+  --grey: #ececec; /*fallback color for background in case background image does not load*/
 }
 /*Styling for the body element*/
 body {
@@ -21,7 +21,7 @@ body {
     /*Background image setup with fallback options */
     background-image: url("../images/background-image/image-small.webp"),
       url("../images/background-image/fallback-small.jpg"), none;
-    background-color: var(--orange);
+    background-color: var(--grey);
   }
 }
 
