@@ -24,12 +24,14 @@ body {
   font-family: "Staatliches", sans-serif;
 }
 /*----------- Navigation bar -----------*/
-/*Styling for the navigation bar */
+/*Styling for the navigation bar, add color, and use flexbox to stack logo and menu vertically  */
 .navbar {
   background-color: var(--black);
   color: var(--white);
-  padding: 10px 20px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 /*Styling for navbar logo, remove underline and display logo above menu using block method*/
 .navbar-logo {
@@ -71,13 +73,24 @@ body {
   }
 }
 
-/* Media queries for screens larger than 800px and less than 1200px */
-@media (min-width: 800px) and (max-width: 1200px) {
+/* Media queries for screens larger than 800px */
+@media (min-width: 800px) {
   body {
     /*Background image setup with fallback options */
     background-image: url("../images/background-image/image-medium.webp"),
       url("../images/background-image/fallback-medium.jpg"), none;
     background-color: var(--orange);
+  }
+  /*Style navigation bar, align logo and menu horizontally */
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  /*Style logo, align to the end of the container, create space above logo*/
+  .navbar-logo {
+    align-self: flex-end;
+    margin-top: 10px;
   }
 }
 
