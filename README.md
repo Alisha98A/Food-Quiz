@@ -2,7 +2,7 @@
 
 Welcome to the Food Quiz project! With this interactive and entertaining quiz you can test your knowledge of different cuisines, ingredients and culinary traditions from around the world. Whether you're a seasoned foodie or just someone who likes to explore different flavors, this quiz will tantalize your taste buds and challenge your culinary knowledge.
 
-Visit the deployed site: [Food Quiz](www.link.se)
+Visit the deployed site: [Food Quiz](https://alisha98a.github.io/Food-Quiz/)
 
 ![Responsice Mockup](https://ui.dev/amiresponsive)
 
