@@ -10,7 +10,6 @@
 }
 /*Styling for the body element*/
 body {
-  /*Adding a fallback color in case backgrund image does not load, and make image take up the whole viewport*/
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -21,7 +20,7 @@ body {
   body {
     /*Background image setup with fallback options */
     background-image: url("../images/background-image/image-small.webp"),
-      url("../images/background-image/image-small.jpg"), none;
+      url("../images/background-image/fallback-small.jpg"), none;
     background-color: var(--orange);
   }
 }
@@ -31,7 +30,7 @@ body {
   body {
     /*Background image setup with fallback options */
     background-image: url("../images/background-image/image-medium.webp"),
-      url("../images/background-image/image-medium.jpg"), none;
+      url("../images/background-image/fallback-medium.jpg"), none;
     background-color: var(--orange);
   }
 }
@@ -41,7 +40,7 @@ body {
   body {
     /*Background image setup with fallback options */
     background-image: url("../images/background-image/image-large.webp"),
-      url("../images/background-image/image-large.jpg"), none;
+      url("../images/background-image/fallback-large.jpg"), none;
     background-color: var(--orange);
   }
 }
