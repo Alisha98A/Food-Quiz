@@ -10,11 +10,38 @@
 }
 /*Styling for the body element*/
 body {
-  /* Background image setup with fallback options */
-  background-image: url("../images/background-image/image-large.webp"),/* Try loading WebP image first */
-    url("../images/background-image/image-large.jpg"),/* Fallback to JPG if WebP is not supported */ none; /* No background if neither image loads */
-  background-color: var(--orange); /* Fallback background color in case images fail to load */
-  background-size: cover; /* Ensure the background image covers the entire viewport */
-  background-repeat: no-repeat; /* Prevent background image from repeating */
-  height: 100vh; /* Ensure the body takes up the entire viewport height */
+  /*Adding a fallback color in case backgrund image does not load, and make image take up the whole viewport*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/* Media queries for screens up to 799px */
+@media (max-width: 799px) {
+  body {
+    /*Background image setup with fallback options */
+    background-image: url("../images/background-image/image-small.webp"),
+      url("../images/background-image/image-small.jpg"), none;
+    background-color: var(--orange);
+  }
+}
+
+/* Media queries for screens larger than 800px and less than 1200px */
+@media (min-width: 800px) and (max-width: 1200px) {
+  body {
+    /*Background image setup with fallback options */
+    background-image: url("../images/background-image/image-medium.webp"),
+      url("../images/background-image/image-medium.jpg"), none;
+    background-color: var(--orange);
+  }
+}
+
+/* Media queries for screens larger than 1201px */
+@media (min-width: 1201px) {
+  body {
+    /*Background image setup with fallback options */
+    background-image: url("../images/background-image/image-large.webp"),
+      url("../images/background-image/image-large.jpg"), none;
+    background-color: var(--orange);
+  }
 }
