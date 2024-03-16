@@ -7,12 +7,51 @@
 :root {
   /*----------- COLOURS -----------*/
   --grey: #ececec; /*fallback color for background in case background image does not load*/
+  --black: #333; /*for navigation bar*/
+  --white: #fff; /*for text in navigation bar*/
 }
 /*Styling for the body element*/
 body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+}
+/*----------- Navigation bar -----------*/
+/*Styling for the navigation bar */
+.navbar {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 10px 20px;
+  text-align: center;
+}
+/*Styling for navbar logo, remove underline and display logo above menu using block method*/
+.navbar-logo {
+  font-size: 24px;
+  color: var(--white);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+/*Styling for the navbar menu, remove default list style and set margin/padding to zero*/
+.navbar-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* Styling for menu items in the navbar, display items horizontally & add space between them */
+.navbar-menu ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+/* Styling for the last menu item, remove margin from last item to avoid extra space*/
+.navbar-menu ul li:last-child {
+  margin-right: 0;
+}
+/* Styling for links in the navbar menu, remove underline from link and add size and color */
+.navbar-menu ul li a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 18px;
 }
 
 /* Media queries for screens up to 799px */
