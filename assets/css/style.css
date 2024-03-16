@@ -1,20 +1,27 @@
-/* Asterisk wildcard selector */
-* {
-  padding: 0;
-  margin: 0;
-}
+/*---------- GOOGLE FONTS IMPORT ----------*/
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 
 :root {
+  /*---------- TYPOGRAPHY ----------*/
+  --header-text: "Staatliches", sans-serif;
+
   /*----------- COLOURS -----------*/
   --grey: #ececec; /*fallback color for background in case background image does not load*/
   --black: #333; /*for navigation bar*/
   --white: #fff; /*for text in navigation bar*/
+}
+
+/* Asterisk wildcard selector */
+* {
+  padding: 0;
+  margin: 0;
 }
 /*Styling for the body element*/
 body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  font-family: "Staatliches", sans-serif;
 }
 /*----------- Navigation bar -----------*/
 /*Styling for the navigation bar */
