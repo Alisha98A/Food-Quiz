@@ -231,7 +231,7 @@ We welcome contributions from fellow food enthusiasts and developers who share o
 
 
 ### Content
-  - x
+  - Learned how to use the var() function in CSS [W3Schools](https://www.w3schools.com/css/css3_variables.asp) for better structure
 
 ### Media
   -  [description](x)
