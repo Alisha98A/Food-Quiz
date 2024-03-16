@@ -95,8 +95,13 @@ As the quiz is about food, I have added a picture of neatly arranged food to the
 
 Wireframes were created for mobile, tablet and desktop using [Figma](https://www.figma.com/)
 
-! Insert images !
+![Homepage](https://ui.dev/amiresponsive)
 
+
+![Game rules](https://ui.dev/amiresponsive)
+
+
+![Quiz](Food-Quiz/documentation/wireframe_quiz.png)
 
 ## Features
 ### Existing Features
