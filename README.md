@@ -2,7 +2,7 @@
 
 Welcome to the Food Quiz project! With this interactive and entertaining quiz you can test your knowledge of different cuisines, ingredients and culinary traditions from around the world. Whether you're a seasoned foodie or just someone who likes to explore different flavors, this quiz will tantalize your taste buds and challenge your culinary knowledge.
 
-Visit the deployed site: [Food Quiz](www.link.se)
+Visit the deployed site: [Food Quiz](https://alisha98a.github.io/Food-Quiz/)
 
 ![Responsice Mockup](https://ui.dev/amiresponsive)
 
@@ -95,13 +95,13 @@ As the quiz is about food, I have added a picture of neatly arranged food to the
 
 Wireframes were created for mobile, tablet and desktop using [Figma](https://www.figma.com/)
 
-![Homepage](https://ui.dev/amiresponsive)
+![Homepage](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/wireframe_homepage.png?raw=true)
 
 
-![Game rules](https://ui.dev/amiresponsive)
+![Game rules](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/wireframe_game_rules.png?raw=true)
 
 
-![Quiz](Food-Quiz/documentation/wireframe_quiz.png)
+![Quiz](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/wireframe_quiz.png?raw=true)
 
 ## Features
 ### Existing Features
