@@ -213,12 +213,12 @@ Please refer to the file [TESTING.md](TESTING.md) for all tests performed.
 
 | No | Bug | How I solved the issue |
 | :--- | :--- | :--- |
-| 1 | Explain the bug | Explain how i solved the issue |
+| 1 | Flashing occurs when refreshing the page (once in a while) | Tried to prevent it by using JavaScript and the 'onload' event of the image to trigger actions once the image is fully loaded. However, with help from John on tutoring team. We agreed on changing fallback color to be more white/grey would be the easiest option, as the flashing won't be so obvious. |
 | 2 | Explain the bug | Explain how i solved the issue |
 
 ### Known Bugs
 
-* example of bug
+* Flashing occurs when refreshing the page (once in a while, not every time). Since it's not affecting the overall user experience, I decided to just change the fallback color to be more white/grey (was previous orange, which was not so smooth). 
 
   ![photo](photo)
 
@@ -237,6 +237,7 @@ We welcome contributions from fellow food enthusiasts and developers who share o
 
 ### Content
   - Learned how to use the var() function in CSS [W3Schools](https://www.w3schools.com/css/css3_variables.asp) for better structure
+  - John from Tutoring Team helped me with my flashing bug (when refreshing the page, sometimes color loaded before image)
 
 ### Media
   -  [description](x)
