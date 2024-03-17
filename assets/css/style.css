@@ -10,7 +10,7 @@
   --black: #333; /*for navigation bar*/
   --white: #fff; /*for text in navigation bar*/
   --box-shadow-black: rgb(21, 24, 14);
-  --oval-circle-green: #c5d86d;
+  --green: #c5d86d;
 }
 
 /* Asterisk wildcard selector */
@@ -88,15 +88,27 @@ body {
 /*Styling for oval circle, add border radius to create an oval shape and add background to green*/
 .oval-circle {
   padding: 20px;
-  background-color: var(--oval-circle-green);
+  background-color: var(--green);
   border-radius: 50%;
   text-align: center;
-  border: 1px solid var(--oval-circle-green);
+  border: 1px solid var(--green);
   box-shadow: 2px 2px 30px var(--box-shadow-black);
   font-size: 10px;
   max-width: 100%;
   width: auto;
 }
+/*Styling for the parent content container, make box responsive, add background color and center element horizontally*/
+.outer-container {
+  width: 80%;
+  max-width: 93em;
+  background-color: var(--green);
+  padding: 20px;
+  border: 2px solid var(--white);
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
 @media (min-width: 350px) {
   .oval-circle {
     padding: 25px;
