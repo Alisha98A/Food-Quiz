@@ -9,6 +9,7 @@
   --grey: #ececec; /*fallback color for background in case background image does not load*/
   --black: #333; /*for navigation bar*/
   --white: #fff; /*for text in navigation bar*/
+  --box-shadow-black: rgb(21, 24, 14);
 }
 
 /* Asterisk wildcard selector */
@@ -32,6 +33,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  box-shadow: 4px 4px 60px var(--box-shadow-black);
 }
 /*Styling for navbar logo, remove underline and display logo above menu using block method*/
 .navbar-logo {
@@ -40,12 +42,20 @@ body {
   text-decoration: none;
   display: block;
   margin-bottom: 10px;
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+/* Increase size when hovering */
+.navbar-logo:hover,
+.navbar-logo:focus {
+  transform: scale(1.05);
 }
 /*Styling for the navbar menu, remove default list style and set margin/padding to zero*/
 .navbar-menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  transition: transform 0.3s;
+  letter-spacing: 3px;
 }
 /* Styling for menu items in the navbar, display items horizontally & add space between them */
 .navbar-menu ul li {
@@ -63,6 +73,10 @@ body {
   font-size: 18px;
 }
 
+.navbar-menu ul li:hover,
+.navbar-menu ul li:focus {
+  transform: scale(1.1);
+}
 /* Media queries for screens up to 799px */
 @media (max-width: 799px) {
   body {
