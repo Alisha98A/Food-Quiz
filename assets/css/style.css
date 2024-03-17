@@ -11,6 +11,8 @@
   --white: #fff; /*for text in navigation bar*/
   --box-shadow-black: rgb(21, 24, 14);
   --green: #c5d86d;
+  --orange: #fdb44b;
+  --hover-over-orange: #ff6f3c;
 }
 
 /* Asterisk wildcard selector */
@@ -124,14 +126,14 @@ h2 {
   padding: 10px 20px;
   margin: 0 10px;
   border: none;
-  background-color: var(--orange); 
-  color: var(black); 
+  background-color: var(--orange);
+  color: var(--black);
   border-radius: 5px;
-  cursor: pointer; 
+  cursor: pointer;
 }
 /* Darker background color on hover */
 .btn-group button:hover {
-  background-color: #ff6f3c; 
+  background-color: var(--hover-over-orange);
 }
 
 @media (min-width: 350px) {
