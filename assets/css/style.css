@@ -72,7 +72,7 @@ body {
   color: var(--white);
   font-size: 18px;
 }
-
+/*Increase size when hovering over menu*/
 .navbar-menu ul li:hover,
 .navbar-menu ul li:focus {
   transform: scale(1.1);
