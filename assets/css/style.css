@@ -10,6 +10,7 @@
   --black: #333; /*for navigation bar*/
   --white: #fff; /*for text in navigation bar*/
   --box-shadow-black: rgb(21, 24, 14);
+  --oval-circle-green: #c5d86d;
 }
 
 /* Asterisk wildcard selector */
@@ -77,6 +78,38 @@ body {
 .navbar-menu ul li:focus {
   transform: scale(1.1);
 }
+/* Styling for parent container of oval circle, add flexbox and move element to the center */
+.oval-circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+/*Styling for oval circle, add border radius to create an oval shape and add background to green*/
+.oval-circle {
+  padding: 20px;
+  background-color: var(--oval-circle-green);
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid var(--oval-circle-green);
+  box-shadow: 2px 2px 30px var(--box-shadow-black);
+  font-size: 10px;
+  max-width: 100%;
+  width: auto;
+}
+@media (min-width: 350px) {
+  .oval-circle {
+    padding: 25px;
+    font-size: 13px;
+  }
+}
+@media (min-width: 601px) {
+  /*Increase size for header with oval circle, add margin from top*/
+  .oval-circle {
+    padding: 30px;
+    font-size: 15px;
+  }
+}
 /* Media queries for screens up to 799px */
 @media (max-width: 799px) {
   body {
@@ -106,6 +139,12 @@ body {
     align-self: flex-end;
     margin-top: 10px;
   }
+  /*Increase size for header with oval circle, add margin from top*/
+  .oval-circle {
+    padding: 40px;
+    font-size: 18px;
+    margin-top: 30px;
+  }
 }
 
 /* Media queries for screens larger than 1201px */
@@ -115,5 +154,20 @@ body {
     background-image: url("../images/background-image/image-large.webp"),
       url("../images/background-image/fallback-large.jpg"), none;
     background-color: var(--orange);
+  }
+  /*Increase size for header with oval circle, add margin from top*/
+  .oval-circle {
+    padding: 80px;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+}
+/* Media queries for screens larger than 2000px */
+@media (min-width: 2000px) {
+  /*Increase size for header with oval circle, add margin from top*/
+  .oval-circle {
+    padding: 150px;
+    font-size: 30px;
+    margin-top: 50px;
   }
 }
