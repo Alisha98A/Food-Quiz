@@ -1,9 +1,11 @@
 /*---------- GOOGLE FONTS IMPORT ----------*/
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&family=Inclusive+Sans:ital@0;1&family=M+PLUS+1:wght@800&family=Quicksand:wght@300..700&family=Truculenta:opsz,wght@12..72,100..900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap");
 
 :root {
   /*---------- TYPOGRAPHY ----------*/
   --header-text: "Staatliches", sans-serif;
+  --content: "Quicksand", sans-serif;
 
   /*----------- COLOURS -----------*/
   --grey: #ececec; /*fallback color for background in case background image does not load*/
@@ -25,7 +27,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  font-family: "Staatliches", sans-serif;
+  font-family: var(--content);
+  font-weight: lighter;
+  font-style: normal;
 }
 /*----------- Navigation bar -----------*/
 /*Styling for the navigation bar, add color, and use flexbox to stack logo and menu vertically  */
@@ -37,6 +41,7 @@ body {
   align-items: center;
   flex-direction: column;
   box-shadow: 4px 4px 60px var(--box-shadow-black);
+  font-family: var(--header-text);
 }
 /*Styling for navbar logo, remove underline and display logo above menu using block method*/
 .navbar-logo {
@@ -114,12 +119,16 @@ body {
 h2 {
   text-align: center;
 }
-
+#get-ready-text {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
 /* Use flexbox to align buttons horizontally, add some margin from the heading */
 .btn-group {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 /* Add styling to buttons such as padding, color and cursor  */
 .btn-group button {
@@ -129,7 +138,10 @@ h2 {
   background-color: var(--orange);
   color: var(--black);
   border-radius: 5px;
+  font-size: 20px;
   cursor: pointer;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 /* Darker background color on hover */
 .btn-group button:hover {
