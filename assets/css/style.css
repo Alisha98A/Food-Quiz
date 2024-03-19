@@ -110,7 +110,7 @@ body {
   max-width: 93em;
   background-color: var(--green);
   padding: 20px;
-  border: 2px solid var(--white);
+  border: 2px;
   border-radius: 5px;
   margin: 0 auto;
   margin-top: 30px;
