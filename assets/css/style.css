@@ -30,6 +30,7 @@ body {
   font-family: var(--content);
   font-weight: lighter;
   font-style: normal;
+  font-size: 11px;
 }
 /*----------- Navigation bar -----------*/
 /*Styling for the navigation bar, add color, and use flexbox to stack logo and menu vertically  */
@@ -149,6 +150,10 @@ h2 {
 }
 
 @media (min-width: 350px) {
+  /*Change font size for body content*/
+  body {
+    font-size: 0.813rem;
+  }
   .oval-circle {
     padding: 25px;
     font-size: 13px;
@@ -188,11 +193,13 @@ h2 {
 
 /* Media queries for screens larger than 800px */
 @media (min-width: 800px) {
+  /*Change font size for body content*/
   body {
     /*Background image setup with fallback options */
     background-image: url("../images/background-image/image-medium.webp"),
       url("../images/background-image/fallback-medium.jpg"), none;
     background-color: var(--orange);
+    font-size: 0.938rem;
   }
   /*Style navigation bar, align logo and menu horizontally */
   .navbar {
@@ -218,11 +225,13 @@ h2 {
 
 /* Media queries for screens larger than 1201px */
 @media (min-width: 1201px) {
+  /*Change font size for body content*/
   body {
     /*Background image setup with fallback options */
     background-image: url("../images/background-image/image-large.webp"),
       url("../images/background-image/fallback-large.jpg"), none;
     background-color: var(--orange);
+    font-size: 1.2rem;
   }
   /*Increase size for header with oval circle, add margin from top*/
   .oval-circle {
@@ -230,13 +239,34 @@ h2 {
     font-size: 20px;
     margin-top: 50px;
   }
+  /*Increase font size for navbar logo an dmenu*/
+  .navbar-logo,
+  .navbar-menu ul li a {
+    font-size: 30px;
+  }
 }
 /* Media queries for screens larger than 2000px */
 @media (min-width: 2000px) {
+  /*Change font size for body content*/
+  body {
+    font-size: 2rem;
+  }
   /*Increase size for header with oval circle, add margin from top*/
   .oval-circle {
     padding: 150px;
     font-size: 30px;
     margin-top: 50px;
+  }
+  .btn-group button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    font-size: 32px;
+    padding: 20px 40px;
+  }
+  /*Increase font size for navbar logo an dmenu*/
+  .navbar-logo,
+  .navbar-menu ul li a {
+    font-size: 40px;
   }
 }
