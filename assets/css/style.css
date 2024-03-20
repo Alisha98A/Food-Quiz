@@ -123,25 +123,25 @@ h2 {
   margin-top: 20px;
   padding-bottom: 20px;
 }
-/* Use flexbox to align buttons horizontally, add some margin from the heading */
+/* Use flexbox to stack buttons vertically on smaller screens */
 .btn-group {
   display: flex;
   justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  align-items: center;
+  flex-direction: column; /* Stack buttons vertically */
 }
-/* Add styling to buttons such as padding, color and cursor  */
+
+/* Add margin between buttons */
 .btn-group button {
   padding: 10px 20px;
-  margin: 0 10px;
+  margin: 10px;
   border: none;
   background-color: var(--orange);
   color: var(--black);
   border-radius: 5px;
-  font-size: 20px;
   cursor: pointer;
-  font-weight: 800;
   text-transform: uppercase;
+  font-weight: 800;
 }
 /* Darker background color on hover */
 .btn-group button:hover {
@@ -159,6 +159,21 @@ h2 {
   .oval-circle {
     padding: 30px;
     font-size: 15px;
+  }
+  /*Display buttons horizontally on bigger screens*/
+  .btn-group {
+    flex-direction: row;
+  }
+
+  /* Reset margin between buttons */
+  .btn-group button {
+    margin-bottom: 0; /* Reset margin */
+    margin-right: 10px; /* Add margin between buttons */
+  }
+
+  /* Ensure the last button doesn't have extra margin */
+  .btn-group button:last-child {
+    margin-right: 0;
   }
 }
 /* Media queries for screens up to 799px */
@@ -195,6 +210,9 @@ h2 {
     padding: 40px;
     font-size: 18px;
     margin-top: 30px;
+  }
+  .btn-group button {
+    font-size: 18px;
   }
 }
 
