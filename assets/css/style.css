@@ -242,7 +242,7 @@ h2 {
   /*Increase font size for navbar logo an dmenu*/
   .navbar-logo,
   .navbar-menu ul li a {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 /* Media queries for screens larger than 2000px */
