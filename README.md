@@ -214,7 +214,7 @@ Please refer to the file [TESTING.md](TESTING.md) for all tests performed.
 | No | Bug | How I solved the issue |
 | :--- | :--- | :--- |
 | 1 | Flashing occurs when refreshing the page (once in a while) | Tried to prevent it by using JavaScript and the 'onload' event of the image to trigger actions once the image is fully loaded. However, with help from John on tutoring team. We agreed on changing fallback color to be more white/grey would be the easiest option, as the flashing won't be so obvious. |
-| 2 | Explain the bug | Explain how i solved the issue |
+| 2 | Answer buttons (for the quiz) don't function correctly | Forgot to add closing div for game, after adding it. Everything worked fine|
 
 ### Known Bugs
 
@@ -238,9 +238,11 @@ We welcome contributions from fellow food enthusiasts and developers who share o
 ### Content
   - Learned how to use the var() function in CSS [W3Schools](https://www.w3schools.com/css/css3_variables.asp) for better structure
   - John from Tutoring Team helped me with my flashing bug (when refreshing the page, sometimes color loaded before image)
+  - Learned how to redirect to another webpage using JavaScript from [Geeksforgeeks](https://www.geeksforgeeks.org/how-to-redirect-to-another-webpage-using-javascript/)
+  - Inspiration for how to make a quiz [Brian Design's Youtube video](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
 
 ### Media
-  -  [description](x)
+  -  Learned how to make a image background responsive from [Cem Eygi Media's Youtube video](https://www.youtube.com/watch?v=vimZLEd702Y)
 
 
 
