@@ -148,6 +148,33 @@ h2 {
 .btn-group button:hover {
   background-color: var(--hover-over-orange);
 }
+/*------------GAME CONTENT------------*/
+/*Style answer buttons by placing them on top of each other and create some padding*/
+#option-btns {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  padding: 1.5rem;
+}
+/*Add font size to answer buttons, add !important to ovverride earlier styles for buttons*/
+.answer-text {
+  font-size: 0.8rem !important;
+  width: 200px !important;
+  height: 30px !important;
+  border-radius: 30px !important;
+  background-color: var(--black) !important;
+  color: var(--white) !important;
+}
+/*Change color when hovering over answer buttons*/
+.answer-text:hover {
+  background-color: var(--white) !important;
+  color: var(--box-shadow-black) !important;
+}
+
+/* Add space between buttons */
+.option-btns .answer-text {
+  margin: 0.8rem;
+}
 
 @media (min-width: 350px) {
   /*Change font size for body content*/
