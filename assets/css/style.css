@@ -169,6 +169,7 @@ h2 {
 .answer-text:hover {
   background-color: var(--white) !important;
   color: var(--box-shadow-black) !important;
+  box-shadow: 0 0.4rem 1.3rem var(--box-shadow-black) !important;
 }
 
 /* Add space between buttons */
