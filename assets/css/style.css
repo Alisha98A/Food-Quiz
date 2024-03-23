@@ -158,9 +158,8 @@ h2 {
 }
 /*Add font size to answer buttons, add !important to ovverride earlier styles for buttons*/
 .answer-text {
-  font-size: 0.8rem !important;
-  width: 200px !important;
-  height: 30px !important;
+  width: 100% !important;
+  height: 3.4rem !important;
   border-radius: 30px !important;
   background-color: var(--black) !important;
   color: var(--white) !important;
