@@ -136,8 +136,9 @@ document.addEventListener("DOMContentLoaded", function () {
       option.removeEventListener("click", handleAnswerClick);
     });
 
-    // Get a new question or display final score
-    setTimeout(getNewQuestion, 1000); // Delay before showing next question
+    // Delay before showing next question
+    // Source link: https://www.sitepoint.com/delay-sleep-pause-wait/
+    setTimeout(getNewQuestion, 1800);
   }
 
   // Call getNewQuestion initially to start the quiz
