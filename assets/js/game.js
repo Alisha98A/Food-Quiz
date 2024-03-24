@@ -74,4 +74,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Remove the selected question from the available questions array
   availableQuestions.splice(questionIndex, 1);
+  // Function to handle answer click
+  function handleAnswerClick(e) {
+    const selectedOption = e.target;
+    const selectedAnswer = selectedOption.dataset.answer;
+
+    // Check if the answer is correct
+    const correct = selectedAnswer == currentQuestion.answer;
+  }
 });
