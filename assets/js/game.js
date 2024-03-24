@@ -34,6 +34,30 @@ document.addEventListener("DOMContentLoaded", function () {
       options: ["Chocolate", "Chia seeds", "Avocado", "Pistachio"],
       answer: 2,
     },
+    {
+      question:
+        "Which was the first fast-food restaurant to open an outlet in China?",
+      options: ["Jollibee", "Subway", "KFC", "Mc Donald's"],
+      answer: 2,
+    },
+    {
+      question:
+        "Among the numerous pizza toppings, which is the most commonly used?",
+      options: ["Extra cheese", "Mushrooms", "Pepperoni", "Pineapple"],
+      answer: 2,
+    },
+    {
+      question:
+        "What is the national dish of Thailand that contains rice noodles, tofu, dried shrimp, sprouts, and eggs?",
+      options: ["Ramen", "Pho", "Pad Thai", "Mi Goreng"],
+      answer: 2,
+    },
+    {
+      question:
+        "In which country would you find shish kebab as an everyday food?",
+      options: ["Greek", "India", "Turkey", "Chile"],
+      answer: 2,
+    },
   ];
 
   // Constants
