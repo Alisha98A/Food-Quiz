@@ -37,8 +37,8 @@ document.addEventListener("DOMContentLoaded", function () {
   ];
   // Constants
   const CORRECT_BONUS = 10;
-  const MAX_QUESTIONS = 3;
-  
+  const MAX_QUESTIONS = 30;
+
   // Start the game
   startGame();
 
@@ -49,4 +49,16 @@ document.addEventListener("DOMContentLoaded", function () {
     availableQuestions = [...questions];
     getNewQuestion();
   }
-});
+    // Function to get a new question
+    function getNewQuestion() {
+      if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+        // Instead of redirecting, display score on the same page
+        questionElement.innerText = "Congratulations, your score is " + score;
+        // Clear options
+        options.forEach((option) => {
+          option.style.display = "none";
+        });
+        return; // Stop further execution
+      }
+    }
+  });
