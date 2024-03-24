@@ -38,6 +38,15 @@ document.addEventListener("DOMContentLoaded", function () {
   // Constants
   const CORRECT_BONUS = 10;
   const MAX_QUESTIONS = 3;
+  
+  // Start the game
+  startGame();
 
- 
+  // Function to start the game
+  function startGame() {
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    getNewQuestion();
+  }
 });
