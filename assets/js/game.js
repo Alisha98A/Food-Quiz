@@ -66,9 +66,12 @@ document.addEventListener("DOMContentLoaded", function () {
   currentQuestion = availableQuestions[questionIndex];
   questionElement.innerText = currentQuestion.question;
 
-  // Display options 
+  // Display options
   options.forEach((option, index) => {
     option.style.display = "block"; // Show options
     option.innerText = currentQuestion.options[index];
   });
+
+  // Remove the selected question from the available questions array
+  availableQuestions.splice(questionIndex, 1);
 });
