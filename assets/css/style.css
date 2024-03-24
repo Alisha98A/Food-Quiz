@@ -14,7 +14,7 @@
   --box-shadow-black: rgb(21, 24, 14);
   --green: #c5d86d;
   --orange: #fdb44b;
-  --hover-over-orange: #ff6f3c;
+  --hover-over-orange: #fda403;
 }
 
 /* Asterisk wildcard selector */
@@ -147,6 +147,7 @@ h2 {
 /* Darker background color on hover */
 .btn-group button:hover {
   background-color: var(--hover-over-orange);
+  color: var(--box-shadow-black);
 }
 /*------------GAME CONTENT------------*/
 /*Style answer buttons by placing them on top of each other and create some padding*/
