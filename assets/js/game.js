@@ -60,20 +60,22 @@ document.addEventListener("DOMContentLoaded", function () {
       });
       return; // Stop further execution
     }
+
+    questionCounter++;
+    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+    currentQuestion = availableQuestions[questionIndex];
+    questionElement.innerText = currentQuestion.question;
+
+    // Display options
+    options.forEach((option, index) => {
+      option.style.display = "block"; // Show options
+      option.innerText = currentQuestion.options[index];
+    });
+
+    // Remove the selected question from the available questions array
+    availableQuestions.splice(questionIndex, 1);
   }
-  questionCounter++;
-  const questionIndex = Math.floor(Math.random() * availableQuestions.length);
-  currentQuestion = availableQuestions[questionIndex];
-  questionElement.innerText = currentQuestion.question;
 
-  // Display options
-  options.forEach((option, index) => {
-    option.style.display = "block"; // Show options
-    option.innerText = currentQuestion.options[index];
-  });
-
-  // Remove the selected question from the available questions array
-  availableQuestions.splice(questionIndex, 1);
   // Function to handle answer click
   function handleAnswerClick(e) {
     const selectedOption = e.target;
@@ -81,14 +83,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Check if the answer is correct
     const correct = selectedAnswer == currentQuestion.answer;
-  }
-  // Update score
-  if (correct) {
-    score += CORRECT_BONUS;
-  }
 
-  // Update and display the score
-  scoreValue.textContent = score;
+    // Update score
+    if (correct) {
+      score += CORRECT_BONUS;
+    }
+
+    // Update and display the score
+    scoreValue.textContent = score;
 
   // Get a new question or display final score
   getNewQuestion(); 
