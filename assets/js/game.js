@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
       answer: 2,
     },
   ];
+
   // Constants
   const CORRECT_BONUS = 10;
   const MAX_QUESTIONS = 30;
@@ -49,6 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
     availableQuestions = [...questions];
     getNewQuestion();
   }
+
   // Function to get a new question
   function getNewQuestion() {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
@@ -79,10 +81,10 @@ document.addEventListener("DOMContentLoaded", function () {
   // Function to handle answer click
   function handleAnswerClick(e) {
     const selectedOption = e.target;
-    const selectedAnswer = selectedOption.dataset.answer;
+    const selectedAnswer = selectedOption.dataset.index;
 
     // Check if the answer is correct
-    const correct = selectedAnswer == currentQuestion.answer;
+    const correct = selectedAnswer == currentQuestion.answer.toString();
 
     // Update score
     if (correct) {
