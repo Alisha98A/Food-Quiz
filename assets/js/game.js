@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Function to get a new question
   function getNewQuestion() {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-      // Instead of redirecting, display score on the same page
+      // Display score on the same page
       questionElement.innerText = "Congratulations, your score is " + score;
       // Clear options
       options.forEach((option) => {
@@ -65,4 +65,10 @@ document.addEventListener("DOMContentLoaded", function () {
   const questionIndex = Math.floor(Math.random() * availableQuestions.length);
   currentQuestion = availableQuestions[questionIndex];
   questionElement.innerText = currentQuestion.question;
+
+  // Display options 
+  options.forEach((option, index) => {
+    option.style.display = "block"; // Show options
+    option.innerText = currentQuestion.options[index];
+  });
 });
