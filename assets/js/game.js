@@ -82,4 +82,14 @@ document.addEventListener("DOMContentLoaded", function () {
     // Check if the answer is correct
     const correct = selectedAnswer == currentQuestion.answer;
   }
+  // Update score
+  if (correct) {
+    score += CORRECT_BONUS;
+  }
+
+  // Update and display the score
+  scoreValue.textContent = score;
+
+  // Get a new question or display final score
+  getNewQuestion(); // Call getNewQuestion() again
 });
