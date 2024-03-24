@@ -161,8 +161,8 @@ h2 {
   width: 100% !important;
   height: 3.4rem !important;
   border-radius: 30px !important;
-  background-color: var(--black) !important;
-  color: var(--white) !important;
+  background-color: var(--grey) !important;
+  color: var(--box-shadow-black) !important;
   transition: all 0.3s ease !important;
 }
 /*Change color when hovering over answer buttons*/
