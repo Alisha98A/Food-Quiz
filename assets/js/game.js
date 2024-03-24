@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Function to get a new question
   function getNewQuestion() {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-      // Display score on the same page
+      // Display score with final words
       questionElement.innerText = "Congratulations, your score is " + score;
       // Clear options
       options.forEach((option) => {
@@ -92,8 +92,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // Update and display the score
     scoreValue.textContent = score;
 
-  // Get a new question or display final score
-  getNewQuestion(); 
+    // Get a new question or display final score
+    getNewQuestion();
+  }
 
   // Add event listeners to options
   options.forEach((option) => {
