@@ -35,4 +35,9 @@ document.addEventListener("DOMContentLoaded", function () {
       answer: 2,
     },
   ];
+  // Constants
+  const CORRECT_BONUS = 10;
+  const MAX_QUESTIONS = 3;
+
+ 
 });
