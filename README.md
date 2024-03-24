@@ -241,6 +241,7 @@ We welcome contributions from fellow food enthusiasts and developers who share o
   - John from Tutoring Team helped me with my flashing bug (when refreshing the page, sometimes color loaded before image)
   - Learned how to redirect to another webpage using JavaScript from [Geeksforgeeks](https://www.geeksforgeeks.org/how-to-redirect-to-another-webpage-using-javascript/)
   - Inspiration for how to make a quiz [Brian Design's Youtube video](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
+  - Learned how to use delays in JavaScript from [Sitepoint](https://www.sitepoint.com/delay-sleep-pause-wait/)
 
 ### Media
   -  Learned how to make a image background responsive from [Cem Eygi Media's Youtube video](https://www.youtube.com/watch?v=vimZLEd702Y)
