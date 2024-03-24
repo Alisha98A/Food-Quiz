@@ -77,7 +77,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Function to get a new question
   function getNewQuestion() {
-    
     // Reset background colors of options and reattach event listeners
     options.forEach((option) => {
       option.style.backgroundColor = "";
@@ -117,22 +116,29 @@ document.addEventListener("DOMContentLoaded", function () {
     // Check if the answer is correct
     const correct = selectedAnswer == currentQuestion.answer.toString();
 
-    // Update score
+    // Update and display the score
     if (correct) {
       score += CORRECT_BONUS;
     }
-
-    // Update and display the score
     scoreValue.textContent = score;
 
-    // Get a new question or display final score
-    getNewQuestion();
-  }
+    // Add background color for showing correct/incorrect answer
+    if (correct) {
+      selectedOption.style.backgroundColor = "##a2c11c"; // Displays green for correct
+    } else {
+      selectedOption.style.backgroundColor = "#fa360a"; //Display red for incorrect
+      // Find and color the correct answer green
+      options[currentQuestion.answer].style.backgroundColor = "#a2c11c";
+    }
 
-  // Add event listeners to options
-  options.forEach((option) => {
-    option.addEventListener("click", handleAnswerClick);
-  });
+    // Disable further clicking on options
+    options.forEach((option) => {
+      option.removeEventListener("click", handleAnswerClick);
+    });
+
+    // Get a new question or display final score
+    setTimeout(getNewQuestion, 1000); // Delay before showing next question
+  }
 
   // Call getNewQuestion initially to start the quiz
   getNewQuestion();
