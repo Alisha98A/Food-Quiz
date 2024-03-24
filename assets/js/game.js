@@ -91,5 +91,13 @@ document.addEventListener("DOMContentLoaded", function () {
   scoreValue.textContent = score;
 
   // Get a new question or display final score
-  getNewQuestion(); // Call getNewQuestion() again
+  getNewQuestion(); 
+
+  // Add event listeners to options
+  options.forEach((option) => {
+    option.addEventListener("click", handleAnswerClick);
+  });
+
+  // Call getNewQuestion initially to start the quiz
+  getNewQuestion();
 });
