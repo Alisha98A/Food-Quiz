@@ -215,6 +215,7 @@ Please refer to the file [TESTING.md](TESTING.md) for all tests performed.
 | :--- | :--- | :--- |
 | 1 | Flashing occurs when refreshing the page (once in a while) | Tried to prevent it by using JavaScript and the 'onload' event of the image to trigger actions once the image is fully loaded. However, with help from John on tutoring team. We agreed on changing fallback color to be more white/grey would be the easiest option, as the flashing won't be so obvious. |
 | 2 | Answer buttons (for the quiz) don't function correctly | Forgot to add closing div for game, after adding it. Everything worked fine|
+| 3 | Score not counting | To solve this issue, I corrected the option attribute to match the index of the correct answer (It was previously set to 1,2,3,4 in HTML. Now it's changed starting from 0, which matches the index of the answers in Javascript). I also added '===' instead of '==' to ensure strics equality |
 
 ### Known Bugs
 
