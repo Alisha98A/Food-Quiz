@@ -111,10 +111,13 @@ document.addEventListener("DOMContentLoaded", function () {
   // Function to handle answer click
   function handleAnswerClick(e) {
     const selectedOption = e.target;
-    const selectedAnswer = selectedOption.dataset.index;
+
+    // Get the text content of the selected option
+    const selectedAnswer = selectedOption.textContent;
 
     // Check if the answer is correct
-    const correct = selectedAnswer == currentQuestion.answer.toString();
+    const correct =
+      selectedAnswer === currentQuestion.options[currentQuestion.answer];
 
     // Update and display the score
     if (correct) {
@@ -124,11 +127,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Add background color for showing correct/incorrect answer
     if (correct) {
-      selectedOption.style.backgroundColor = "##a2c11c"; // Displays green for correct
+      selectedOption.style.backgroundColor = "#a2c11c"; // Displays green for correct
     } else {
       selectedOption.style.backgroundColor = "#fa360a"; //Display red for incorrect
       // Find and color the correct answer green
-      options[currentQuestion.answer].style.backgroundColor = "#a2c11c";
+      options.find(
+        (option) =>
+          option.textContent === currentQuestion.options[currentQuestion.answer]
+      ).style.backgroundColor = "#a2c11c";
     }
 
     // Disable further clicking on options
