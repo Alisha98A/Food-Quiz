@@ -11,5 +11,28 @@ document.addEventListener("DOMContentLoaded", function () {
   let questionCounter = 0;
   let availableQuestions = [];
 
-  
+  // Quiz questions
+  const questions = [
+    {
+      question: "What is the most consumed fruit in the world?",
+      options: ["Bananas", "Apples", "Oranges", "Citrus"],
+      answer: 0,
+    },
+    {
+      question:
+        "Which fruit is known as Southeast Asia's king of fruits due to its strong smell and flavor?",
+      options: ["Dragon Fruit", "Mangoes", "Durian", "Lychee"],
+      answer: 2,
+    },
+    {
+      question: "Which country did the french fries originate from?",
+      options: ["France", "USA", "UK", "Belgium"],
+      answer: 3,
+    },
+    {
+      question: "Which food contains the most calories per gram?",
+      options: ["Chocolate", "Chia seeds", "Avocado", "Pistachio"],
+      answer: 2,
+    },
+  ];
 });
