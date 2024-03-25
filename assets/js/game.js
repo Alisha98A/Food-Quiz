@@ -82,6 +82,16 @@ document.addEventListener("DOMContentLoaded", function () {
     let timeLeft = QUESTION_TIME;
 
     timerDisplay.textContent = timeLeft;
+
+    timerInterval = setInterval(() => {
+      timeLeft--;
+      timerDisplay.textContent = timeLeft;
+
+      if (timeLeft === 0) {
+        clearInterval(timerInterval);
+        handleTimeout();
+      }
+    }, 1000);
   }
 
   // Function to get a new question
