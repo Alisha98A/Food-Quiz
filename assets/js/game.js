@@ -99,12 +99,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Function to get a new question
   function getNewQuestion() {
-    // Reset background colors of options and reattach event listeners
-    options.forEach((option) => {
-      option.style.backgroundColor = "";
-      option.addEventListener("click", handleAnswerClick);
-    });
-
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
       // Display score with final words
       questionElement.innerText = "Congratulations, your score is " + score;
