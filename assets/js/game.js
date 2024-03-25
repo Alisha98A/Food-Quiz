@@ -75,6 +75,11 @@ document.addEventListener("DOMContentLoaded", function () {
     getNewQuestion();
   }
 
+  // Function to start the timer
+  function startTimer() {
+    clearInterval(timerInterval); // Clear existing timer interval
+  }
+
   // Function to get a new question
   function getNewQuestion() {
     // Reset background colors of options and reattach event listeners
