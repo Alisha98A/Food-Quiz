@@ -15,6 +15,7 @@
   --green: #c5d86d;
   --orange: #fdb44b;
   --hover-over-orange: #fda403;
+  --beige: #aaa;
 }
 
 /* Asterisk wildcard selector */
@@ -180,6 +181,28 @@ h2 {
 /* Add space between buttons */
 .option-btns .answer-text {
   margin: 0.8rem;
+}
+
+/* ---------MODAL FOR GAME RULES STYLES-----------*/
+/*Adapted opacity from *https://developer.mozilla.org/en-US/docs/Web/CSS/opacity*/
+.modal {
+  display: none; /* Hide the modal by default */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  overflow: auto; /* Enable scrolling if needed */
+}
+/*Style model content*/
+.modal-content {
+  background-color: var(--white);
+  margin: 15% auto; /* Center modal vertically and horizontally */
+  padding: 20px;
+  border: 1px solid var(--grey);
+  width: 80%;
 }
 
 @media (min-width: 350px) {
