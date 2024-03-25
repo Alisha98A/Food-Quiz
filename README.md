@@ -246,6 +246,8 @@ We welcome contributions from fellow food enthusiasts and developers who share o
   - Learned how to use delays in JavaScript from [Sitepoint](https://www.sitepoint.com/delay-sleep-pause-wait/)
   - Learned how to fix answer comparison for checking the correct/incorrect answer. With help from communty from Slack. 
   - [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) on how to use modals.
+  - Learned how to close modal if the user clicks outside of its content. [Wordpress](https://wordpress.org/support/topic/how-to-close-a-popup-when-clicking-outside-of-it/)
+  - Adapted opacity from [Developer mozilla]https://developer.mozilla.org/en-US/docs/Web/CSS/opacity) (stling in CSS)
 
 ### Media
   -  Learned how to make a image background responsive from [Cem Eygi Media's Youtube video](https://www.youtube.com/watch?v=vimZLEd702Y)
