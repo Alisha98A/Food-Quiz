@@ -121,6 +121,7 @@ document.addEventListener("DOMContentLoaded", function () {
     options.forEach((option, index) => {
       option.style.display = "block"; // Show options
       option.innerText = currentQuestion.options[index];
+      option.addEventListener("click", handleAnswerClick);
     });
 
     // Remove the selected question from the available questions array
