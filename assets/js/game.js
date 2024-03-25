@@ -141,14 +141,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // Update and display the score
     if (correct) {
       score += CORRECT_BONUS;
-    }
-    scoreValue.textContent = score;
-
-    // Add background color for showing correct/incorrect answer
-    if (correct) {
-      selectedOption.style.backgroundColor = "#a2c11c"; // Displays green for correct
+      selectedOption.style.backgroundColor = "#a2c11c"; // Display green for correct
     } else {
-      selectedOption.style.backgroundColor = "#fa360a"; //Display red for incorrect
+      selectedOption.style.backgroundColor = "#fa360a"; // Display red for incorrect
       // Find and color the correct answer green
       options.find(
         (option) =>
