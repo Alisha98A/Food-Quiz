@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function () {
   // DOM elements
   const questionElement = document.getElementById("question");
   const options = Array.from(document.querySelectorAll(".answer-text"));
-  const nextButton = document.getElementById("nextBtn");
   const scoreValue = document.getElementById("score-value");
   const timerDisplay = document.getElementById("timer");
 
@@ -151,7 +150,7 @@ document.addEventListener("DOMContentLoaded", function () {
           option.textContent === currentQuestion.options[currentQuestion.answer]
       ).style.backgroundColor = "#a2c11c";
     }
-// Update score display
+    // Update score display
     scoreValue.textContent = score;
 
     // Disable further clicking on options
