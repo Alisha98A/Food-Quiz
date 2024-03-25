@@ -101,6 +101,12 @@ document.addEventListener("DOMContentLoaded", function () {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
       // Display score with final words
       questionElement.innerText = "Congratulations, your score is " + score;
+      // Hide the options
+      options.forEach((option) => {
+        option.style.display = "none";
+      });
+      // Clear the timer display
+      timerDisplay.textContent = "";
       return;
     }
 
