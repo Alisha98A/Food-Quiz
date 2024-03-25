@@ -151,6 +151,8 @@ document.addEventListener("DOMContentLoaded", function () {
           option.textContent === currentQuestion.options[currentQuestion.answer]
       ).style.backgroundColor = "#a2c11c";
     }
+// Update score display
+    scoreValue.textContent = score;
 
     // Disable further clicking on options
     options.forEach((option) => {
@@ -162,6 +164,9 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(getNewQuestion, 1800);
   }
 
-  // Call getNewQuestion initially to start the quiz
-  getNewQuestion();
+  // Function to handle timeout
+  function handleTimeout() {
+    questionElement.innerText = "Time's up! Next question...";
+    setTimeout(getNewQuestion, 2000);
+  }
 });
