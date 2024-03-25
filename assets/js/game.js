@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let score = 0;
   let questionCounter = 0;
   let availableQuestions = [];
+  let timerInterval;
 
   // Quiz questions
   const questions = [
@@ -64,6 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Constants
   const CORRECT_BONUS = 10;
   const MAX_QUESTIONS = 30;
+  const QUESTION_TIME = 15;
 
   // Start the game
   startGame();
