@@ -9,8 +9,19 @@ document.getElementById("rulesBtn").addEventListener("click", function () {
   // Display the modal when the button is clicked
   document.getElementById("rulesModal").style.display = "block";
 });
+
 // Add event listener to the close button of the modal
 document.querySelector(".close").addEventListener("click", function () {
   // Hide the modal when the close button is clicked
-  document.getElementById("rulesModal").style.display = "none";
+  const modal = document.getElementById("rulesModal");
+  modal.style.display = "none";
+});
+
+// Close the modal if the user clicks outside of the modal content
+// Code adapted from https://wordpress.org/support/topic/how-to-close-a-popup-when-clicking-outside-of-it/
+window.addEventListener("click", function (event) {
+  const modal = document.getElementById("rulesModal");
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
 });
