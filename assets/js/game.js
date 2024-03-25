@@ -108,12 +108,15 @@ document.addEventListener("DOMContentLoaded", function () {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
       // Display score with final words
       questionElement.innerText = "Congratulations, your score is " + score;
-      // Clear options
-      options.forEach((option) => {
-        option.style.display = "none";
-      });
-      return; // Stop further execution
+      return;
     }
+
+    startTimer(); // Start the timer for each new question
+
+    // Reset background colors of answer buttons
+    options.forEach((option) => {
+      option.style.backgroundColor = "";
+    });
 
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
