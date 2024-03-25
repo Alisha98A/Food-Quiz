@@ -204,6 +204,21 @@ h2 {
   border: 1px solid var(--grey);
   width: 80%;
 }
+/*Style close button for modal*/
+.close {
+  color: var(--beige);
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/*Stylings for hovering over close button for modal*/
+.close:hover,
+.close:focus {
+  color: var(--box-shadow-black);
+  text-decoration: none;
+  cursor: pointer;
+}
 
 @media (min-width: 350px) {
   /*Change font size for body content*/
