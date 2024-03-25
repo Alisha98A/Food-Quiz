@@ -9,3 +9,8 @@ document.getElementById("rulesBtn").addEventListener("click", function () {
   // Display the modal when the button is clicked
   document.getElementById("rulesModal").style.display = "block";
 });
+// Add event listener to the close button of the modal
+document.querySelector(".close").addEventListener("click", function () {
+  // Hide the modal when the close button is clicked
+  document.getElementById("rulesModal").style.display = "none";
+});
