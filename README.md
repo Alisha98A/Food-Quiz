@@ -241,9 +241,11 @@ We welcome contributions from fellow food enthusiasts and developers who share o
   - Learned how to use the var() function in CSS [W3Schools](https://www.w3schools.com/css/css3_variables.asp) for better structure
   - John from Tutoring Team helped me with my flashing bug (when refreshing the page, sometimes color loaded before image)
   - Learned how to redirect to another webpage using JavaScript from [Geeksforgeeks](https://www.geeksforgeeks.org/how-to-redirect-to-another-webpage-using-javascript/)
+  - Learned more about DOM and eventlistener from [W3Schools](https://www.w3schools.com/js/js_htmldom_eventlistener.asp) and [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
   - Inspiration for how to make a quiz [Brian Design's Youtube video](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
   - Learned how to use delays in JavaScript from [Sitepoint](https://www.sitepoint.com/delay-sleep-pause-wait/)
   - Learned how to fix answer comparison for checking the correct/incorrect answer. With help from communty from Slack. 
+  - [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) on how to use modals.
 
 ### Media
   -  Learned how to make a image background responsive from [Cem Eygi Media's Youtube video](https://www.youtube.com/watch?v=vimZLEd702Y)
