@@ -78,6 +78,10 @@ document.addEventListener("DOMContentLoaded", function () {
   // Function to start the timer
   function startTimer() {
     clearInterval(timerInterval); // Clear existing timer interval
+
+    let timeLeft = QUESTION_TIME;
+
+    timerDisplay.textContent = timeLeft;
   }
 
   // Function to get a new question
