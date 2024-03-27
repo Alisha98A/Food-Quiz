@@ -175,4 +175,10 @@ document.addEventListener("DOMContentLoaded", function () {
     questionElement.innerText = "Time's up! Next question...";
     setTimeout(getNewQuestion, 2000);
   }
+
+  // Function to handle end game
+  function endGame() {
+    // Hide timer
+    timerDisplay.style.display = "none";
+  }
 });
