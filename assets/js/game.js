@@ -100,14 +100,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // Function to get a new question
   function getNewQuestion() {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-      // Display score with final words
-      questionElement.innerText = "Congratulations, your score is " + score;
-      // Hide the options
-      options.forEach((option) => {
-        option.style.display = "none";
-      });
-      // Clear the timer display
-      timerDisplay.textContent = "";
+      // Call endGame function when the quiz ends
+      endGame();
       return;
     }
 
