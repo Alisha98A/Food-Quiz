@@ -63,6 +63,17 @@
 
       <!-- Display score for the quiz game -->
       <div id="score">Score: <span id="score-value">0</span></div>
+      <!-- End Page -->
+      <div id="end-page" style="display: none">
+        <h2>Congratulations, you scored <span id="end-score"></span></h2>
+        <p>Want to save your result?</p>
+        <p>Fill in your name below to submit.</p>
+        <form id="save-score-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
 
       <!--Buttons-->
       <div class="btn-group">
