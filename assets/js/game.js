@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
   ];
 
   // Constants
-  const CORRECT_BONUS = 10;
+  const correctBonus = 10;
   const MAX_QUESTIONS = 30;
   const QUESTION_TIME = 15;
 
@@ -141,7 +141,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Update and display the score
     if (correct) {
-      score += CORRECT_BONUS;
+      score += correctBonus;
       selectedOption.style.backgroundColor = "#a2c11c"; // Display green for correct
     } else {
       selectedOption.style.backgroundColor = "#fa360a"; // Display red for incorrect
@@ -186,5 +186,27 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Show the "Play again" button
     playAgainBtn.style.display = "block";
+
+    // Handle form
+    const form = document.getElementById("save-score-form");
+    form.addEventListener("submit", handleScoreForm);
+  }
+  // Function to handle form submission and store score
+  function handleScoreForm(e) {
+    e.preventDefault();
+    console.log(e);
+    let name = e.target[0].value;
+    let currentHighScores = localStorage.getItem("foodQuiz");
+    let newObject = { name: name, score: score };
+    //   // Check if localStorage is empty/null
+    if (currentHighScores == null) {
+      // If empty, store newObject as an array in localStorage
+      localStorage.setItem("foodQuiz", JSON.stringify([newObject]));
+    } else {
+      // If not empty, parse the existing scores and add the new score
+      currentHighScores = JSON.parse(currentHighScores);
+      currentHighScores.push(newObject);
+      localStorage.setItem("foodQuiz", JSON.stringify(currentHighScores));
+    }
   }
 });
