@@ -184,5 +184,13 @@ document.addEventListener("DOMContentLoaded", function () {
     // Hide game elements
     document.getElementById("game").style.display = "none";
     document.getElementById("score").style.display = "none";
+
+    // Show end page
+    const endPage = document.getElementById("end-page");
+    endPage.style.display = "block";
+    document.getElementById("end-score").textContent = score;
+
+    // Show the "Play again" button
+    playAgainBtn.style.display = "block";
   }
 });
