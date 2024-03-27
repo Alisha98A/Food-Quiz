@@ -64,8 +64,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Constants
   const correctBonus = 10;
-  const MAX_QUESTIONS = 30;
-  const QUESTION_TIME = 15;
+  const maxQuestions = 30;
+  const questionTime = 15;
 
   // Start the game
   startGame();
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function startTimer() {
     clearInterval(timerInterval); // Clear existing timer interval
 
-    let timeLeft = QUESTION_TIME;
+    let timeLeft = questionTime;
 
     timerDisplay.textContent = timeLeft;
 
@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Function to get a new question
   function getNewQuestion() {
-    if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+    if (availableQuestions.length === 0 || questionCounter >= maxQuestions) {
       // Call endGame function when the quiz ends
       endGame();
       return;
