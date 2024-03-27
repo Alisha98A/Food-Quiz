@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const options = Array.from(document.querySelectorAll(".answer-text"));
   const scoreValue = document.getElementById("score-value");
   const timerDisplay = document.getElementById("timer");
+  const playAgainBtn = document.getElementById("play-again-btn");
 
   // Game variables
   let currentQuestion = {};
