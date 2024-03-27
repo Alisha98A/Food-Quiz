@@ -217,6 +217,7 @@ Please refer to the file [TESTING.md](TESTING.md) for all tests performed.
 | 2 | Answer buttons (for the quiz) don't function correctly | Forgot to add closing div for game, after adding it. Everything worked fine|
 | 3 | Score not counting | To solve this issue, I corrected the option attribute to match the index of the correct answer (It was previously set to 1,2,3,4 in HTML. Now it's changed starting from 0, which matches the index of the answers in Javascript). I also added '===' instead of '==' to ensure strics equality |
 | 4 | Red/green colors don't display correctly for correct/incorrect answers | To ensure correctness, I compared the text content of the selected option (selectedAnswer) with the text content of the correct answer (currentQuestion.options[currentQuestion.answer]). I used the find method to search for the correct answer by comparing the text content of each option with the text content of the correct answer. After making these changes, the function now handles both correct and incorrect responses|
+| 5 | After quiz completion, user is asked to submit name to log score. Problem with storing data of name submitted | Solved it by storing an if statement checking if local storage is empty versus not empty, using JSON string to parse into javascript array. |
 
 ### Known Bugs
 
@@ -247,7 +248,8 @@ We welcome contributions from fellow food enthusiasts and developers who share o
   - Learned how to fix answer comparison for checking the correct/incorrect answer. With help from communty from Slack. 
   - [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) on how to use modals.
   - Learned how to close modal if the user clicks outside of its content. [Wordpress](https://wordpress.org/support/topic/how-to-close-a-popup-when-clicking-outside-of-it/)
-  - Adapted opacity from [Developer mozilla]https://developer.mozilla.org/en-US/docs/Web/CSS/opacity) (stling in CSS)
+  - Adapted opacity from [Developer mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity) (stling in CSS)
+  - Function to handle form submission and store score, solved it with help from Matt, my mentor. 
 
 ### Media
   -  Learned how to make a image background responsive from [Cem Eygi Media's Youtube video](https://www.youtube.com/watch?v=vimZLEd702Y)
