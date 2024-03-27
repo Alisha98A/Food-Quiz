@@ -180,5 +180,9 @@ document.addEventListener("DOMContentLoaded", function () {
   function endGame() {
     // Hide timer
     timerDisplay.style.display = "none";
+
+    // Hide game elements
+    document.getElementById("game").style.display = "none";
+    document.getElementById("score").style.display = "none";
   }
 });
