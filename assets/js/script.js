@@ -36,3 +36,14 @@ outerContainer.innerHTML = "";
 
 // Retrieve high scores from local storage
 let currentHighScores = localStorage.getItem("foodQuiz");
+
+// Check if there are high scores stored
+if (currentHighScores) {
+  currentHighScores = JSON.parse(currentHighScores);
+
+  // Sort high scores by score value 
+  currentHighScores.sort((a, b) => b.score - a.score);
+
+  // Limit the high scores to the top 10 entries
+  currentHighScores = currentHighScores.slice(0, 10);
+}
