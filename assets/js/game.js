@@ -60,6 +60,42 @@ document.addEventListener("DOMContentLoaded", function () {
       options: ["Greek", "India", "Turkey", "Chile"],
       answer: 2,
     },
+    {
+      question: "Which chocolate bar is the global bestseller?",
+      options: ["Snickers", "Mars", "Bounty", "Twix"],
+      answer: 0,
+    },
+    {
+      question: "How many tablespoons are in a cup?",
+      options: ["13", "14", "15", "16"],
+      answer: 3,
+    },
+    {
+      question: "Which animal can be found on the Toblerone logo?",
+      options: ["Lion", "Tiger", "Cat", "Bear"],
+      answer: 3,
+    },
+    {
+      question:
+        "Pizza Margherita is a typical Neapolitan pizza made with tomatoes, mozzarella cheese, salt, extra-virgin olive oil, and what culinary herb?",
+      options: ["Oregano", "Basil", "Mint", "Pepper"],
+      answer: 1,
+    },
+    {
+      question: "Question: What is the primary ingredient in guacamole?",
+      options: ["Avocado", "Tomato", "Onion", "Lemon juice"],
+      answer: 0,
+    },
+    {
+      question: " Which spice gives the Indian dish curry its yellow color?",
+      options: ["Cumin", "Turmeric", "Paprika", "Saffron"],
+      answer: 1,
+    },
+    {
+      question: " Which spice gives the Indian dish curry its yellow color?",
+      options: ["Kidney beans", "Black beans", "Lentils", "Chickpeas"],
+      answer: 3,
+    },
   ];
 
   // Constants
