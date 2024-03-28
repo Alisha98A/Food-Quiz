@@ -18,6 +18,8 @@
   --hover-over-orange: #fda403;
   --beige: #aaa;
   --score-value: #005792;
+  --end-page-white: #f0f0f0;
+  --border: #ccc;
 }
 
 /* Asterisk wildcard selector */
@@ -214,6 +216,17 @@ h2 {
 .score-value {
   font-weight: bold;
   color: var(--score-value);
+}
+/*Styling for end page of the quiz*/
+#end-page {
+  display: none;
+  text-align: center;
+  padding: 20px;
+  background-color: var(--end-page-white);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 /* ---------MODAL FOR GAME RULES STYLES-----------*/
