@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
           timerDisplay.style.visibility = "hidden";
         }
       } else {
-        timerDisplay.style.visibility = "visible"; 
+        timerDisplay.style.visibility = "visible";
       }
 
       if (timeLeft === 0) {
@@ -162,7 +162,7 @@ document.addEventListener("DOMContentLoaded", function () {
       score += correctBonus;
       selectedOption.style.backgroundColor = "#a2c11c"; // Display green for correct
     } else {
-      selectedOption.style.backgroundColor = "#fa360a"; // Display red for incorrect
+      selectedOption.style.backgroundColor = "#ff6464"; // Display red for incorrect
       // Find and color the correct answer green
       options.find(
         (option) =>
