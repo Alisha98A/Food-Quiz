@@ -29,3 +29,7 @@ window.addEventListener("click", function (event) {
 document
   .getElementById("scoreboardBtn")
   .addEventListener("click", function () {});
+  
+// Clear existing content inside the outer container
+const outerContainer = document.querySelector(".outer-container");
+outerContainer.innerHTML = "";
