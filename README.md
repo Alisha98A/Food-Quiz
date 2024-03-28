@@ -218,6 +218,7 @@ Please refer to the file [TESTING.md](TESTING.md) for all tests performed.
 | 3 | Score not counting | To solve this issue, I corrected the option attribute to match the index of the correct answer (It was previously set to 1,2,3,4 in HTML. Now it's changed starting from 0, which matches the index of the answers in Javascript). I also added '===' instead of '==' to ensure strics equality |
 | 4 | Red/green colors don't display correctly for correct/incorrect answers | To ensure correctness, I compared the text content of the selected option (selectedAnswer) with the text content of the correct answer (currentQuestion.options[currentQuestion.answer]). I used the find method to search for the correct answer by comparing the text content of each option with the text content of the correct answer. After making these changes, the function now handles both correct and incorrect responses|
 | 5 | After quiz completion, user is asked to submit name to log score. Problem with storing data of name submitted | Solved it by storing an if statement checking if local storage is empty versus not empty, using JSON string to parse into javascript array. |
+| 6 | Clicking on submit button but instead of showing name and score, I get redirected back to the quiz | Run the console.log in Devtools and saw an error of a variable that I'm trying to access the 'style' property of is null. Added an ID of that variable back in HTML, after checking the console log again and testing the submit button. I now see the name and the score displaying. |
 
 ### Known Bugs
 
