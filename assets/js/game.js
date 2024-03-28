@@ -194,11 +194,30 @@ document.addEventListener("DOMContentLoaded", function () {
   // Function to handle form submission and store score
   function handleScoreForm(e) {
     e.preventDefault();
-    console.log(e);
-    let name = e.target[0].value;
+    // Code adapted from: https://javascript.plainenglish.io/check-if-string-is-alphanumeric-in-javascript-e325caa3ee
+    const nameInput = e.target[0];
+    let name = nameInput.value.trim(); // Trim whitespace from the input
+    const maxLength = 20; // Maximum allowed length for the name
+
+    // Check if the name is empty or exceeds the maximum length
+    if (name === "" || name.length > maxLength) {
+      alert(`Please enter a name with maximum ${maxLength} characters.`);
+      return;
+    }
+
+    // Regular expression to match only letters and numbers
+    const regex = /^[a-zA-Z0-9]+$/;
+
+    // Check if the name contains only letters and numbers
+    if (!regex.test(name)) {
+      alert("Name can only contain letters and numbers.");
+      return;
+    }
+
     let currentHighScores = localStorage.getItem("foodQuiz");
     let newObject = { name: name, score: score };
-    //   // Check if localStorage is empty/null
+
+    // Check if localStorage is empty/null
     if (currentHighScores == null) {
       // If empty, store newObject as an array in localStorage
       localStorage.setItem("foodQuiz", JSON.stringify([newObject]));
