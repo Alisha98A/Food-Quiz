@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Constants
   const correctBonus = 10;
-  const maxQuestions = 15;
+  const maxQuestions = 10;
   const questionTime = 15;
 
   // Start the game
