@@ -25,3 +25,7 @@ window.addEventListener("click", function (event) {
     modal.style.display = "none";
   }
 });
+// Add event listener to the "Scoreboard" button
+document
+  .getElementById("scoreboardBtn")
+  .addEventListener("click", function () {});
