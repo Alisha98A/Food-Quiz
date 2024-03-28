@@ -17,6 +17,7 @@
   --orange: #fdb44b;
   --hover-over-orange: #fda403;
   --beige: #aaa;
+  --score-value: #005792;
 }
 
 /* Asterisk wildcard selector */
@@ -183,11 +184,36 @@ h2 {
 .option-btns .answer-text {
   margin: 0.8rem;
 }
+/*Set font family and font size to timer*/
 #timer {
   font-family: var(--other-areas);
   font-size: 20px;
   color: var(--box-shadow-black);
-  padding: 20px;
+  padding: 10px;
+}
+/*Style score container*/
+.score-container {
+  font-family: var(--other-areas);
+  font-size: 18px;
+  color: var(--box-shadow-black);
+  padding: 10px;
+  border-radius: 5px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(216, 241, 230, 0.46) 0.1%,
+    rgba(233, 226, 226, 0.28) 90.1%
+  );
+  display: inline-block;
+}
+
+/*Add some space between text and value*/
+.score-label {
+  margin-right: 5px;
+}
+/*Style the score value*/
+.score-value {
+  font-weight: bold;
+  color: var(--score-value);
 }
 
 /* ---------MODAL FOR GAME RULES STYLES-----------*/
