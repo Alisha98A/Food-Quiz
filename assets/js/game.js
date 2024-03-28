@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let timerInterval;
 
   // Quiz questions
+  //Some questions taken from https://www.buzzfeed.com/laurafrustaci/50-food-trivia-questions-to-get-your-mouth-watering-and
   const questions = [
     {
       question: "What is the most consumed fruit in the world?",
@@ -95,6 +96,56 @@ document.addEventListener("DOMContentLoaded", function () {
       question: " Which spice gives the Indian dish curry its yellow color?",
       options: ["Kidney beans", "Black beans", "Lentils", "Chickpeas"],
       answer: 3,
+    },
+    {
+      question: "Which of the following is a type of pasta?",
+      options: ["Tofu", " Quinoa", "Linguine", "Couscous"],
+      answer: 3,
+    },
+    {
+      question:
+        "What type of cheese is typically used in a classic Caesar salad?",
+      options: ["Feta", " Cheddar", "Parmesan", "Swiss"],
+      answer: 2,
+    },
+    {
+      question: "What is the main ingredient in traditional tzatziki sauce?",
+      options: ["Yogurt", " Mayonnaise", "Sour cream", "Cream cheese"],
+      answer: 0,
+    },
+    {
+      question: "Which of the following is not a variety of apple?",
+      options: ["Granny Smith", " Gala", "Valencia", "Honeycrisp"],
+      answer: 2,
+    },
+    {
+      question:
+        "What type of seafood is traditionally used in a New England clam chowder?",
+      options: ["Shrimp", " Lobster", "Crab", "Clams"],
+      answer: 2,
+    },
+    {
+      question: "Which type of pasta is shaped like small rice grains?",
+      options: ["Penne", " Orzo", "Rotini", "Fusilli"],
+      answer: 1,
+    },
+    {
+      question:
+        "What is the primary ingredient in the Indian dish 'Saag Paneer'?",
+      options: ["Spinach", " Lentils", "Chickpeas", "Cauliflower"],
+      answer: 0,
+    },
+    {
+      question:
+        "What is the primary ingredient in the popular Italian appetizer 'Bruschetta'?",
+      options: ["Mozzarella cheese", "Tomatoes", "Olives", "Artichokes"],
+      answer: 1,
+    },
+    {
+      question:
+        "Which spice is often used to give curry its distinctively warm and slightly sweet flavor?",
+      options: ["Nutmeg", "Cardamom", "Cinnamon", "Cloves"],
+      answer: 2,
     },
   ];
 
