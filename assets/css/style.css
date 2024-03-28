@@ -235,6 +235,14 @@ h2 {
   text-decoration: none;
   cursor: pointer;
 }
+/* ---------STYLINGS FOR SCOREBOARD-----------*/
+/*Style the scoreboard text*/
+.high-score {
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: bold;
+}
 
 @media (min-width: 350px) {
   /*Change font size for body content*/
@@ -315,6 +323,10 @@ h2 {
   .btn-group button {
     font-size: 18px;
   }
+  /*Style the scoreboard text*/
+  .high-score {
+    font-size: 24px;
+  }
 }
 
 /* Media queries for screens larger than 1201px */
@@ -337,6 +349,10 @@ h2 {
   .navbar-logo,
   .navbar-menu ul li a {
     font-size: 25px;
+  }
+  /*Style the scoreboard text*/
+  .high-score {
+    font-size: 28px;
   }
 }
 /* Media queries for screens larger than 2000px */
@@ -369,6 +385,10 @@ h2 {
     margin-bottom: 50px;
   }
   #rules-text {
+    font-size: 40px;
+  }
+  /*Style the scoreboard text*/
+  .high-score {
     font-size: 40px;
   }
 }
