@@ -46,4 +46,26 @@ if (currentHighScores) {
 
   // Limit the high scores to the top 10 entries
   currentHighScores = currentHighScores.slice(0, 10);
+  
+  // Generate HTML to display high scores
+    const highScoreHTML = currentHighScores
+      .map((scoreObj, index) => {
+        return `<p>${index + 1}. ${scoreObj.name}: ${scoreObj.score}</p>`;
+      })
+      .join("");
+
+    // Display high scores in the scoreboard container
+    outerContainer.innerHTML = `${highScoreHTML}`;
+
+    // Update the text content of the oval circle heading
+    const ovalCircleHeading = document.querySelector(".oval-circle h1");
+    ovalCircleHeading.textContent = "High Scores";
+
+    // Remove the text content of the oval circle subheading
+    const ovalCircleSubheading = document.querySelector(".oval-circle h2");
+    ovalCircleSubheading.textContent = "";
+  } else {
+    // If no high scores found, display a message
+    outerContainer.innerHTML = "<h2>No high scores yet!</h2>";
+  
 }
