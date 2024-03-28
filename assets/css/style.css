@@ -6,6 +6,7 @@
   /*---------- TYPOGRAPHY ----------*/
   --header-text: "Staatliches", sans-serif;
   --content: "Quicksand", sans-serif;
+  --other-areas: Arial, sans-serif;
 
   /*----------- COLOURS -----------*/
   --grey: #ececec; /*fallback color for background in case background image does not load*/
@@ -181,6 +182,12 @@ h2 {
 /* Add space between buttons */
 .option-btns .answer-text {
   margin: 0.8rem;
+}
+#timer {
+  font-family: var(--other-areas);
+  font-size: 20px;
+  color: var(--box-shadow-black);
+  padding: 20px;
 }
 
 /* ---------MODAL FOR GAME RULES STYLES-----------*/
