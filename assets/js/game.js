@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Constants
   const correctBonus = 10;
-  const maxQuestions = 30;
+  const maxQuestions = 15;
   const questionTime = 15;
 
   // Start the game
@@ -110,7 +110,17 @@ document.addEventListener("DOMContentLoaded", function () {
   function startGame() {
     questionCounter = 0;
     score = 0;
-    availableQuestions = [...questions];
+    availableQuestions = []; // Reset available questions array
+
+    // Select 10 random questions
+    for (let i = 0; i < 10; i++) {
+      const randomIndex = Math.floor(Math.random() * questions.length);
+      const randomQuestion = questions[randomIndex];
+      availableQuestions.push(randomQuestion);
+      // Remove the selected question from the questions array to prevent duplicates
+      questions.splice(randomIndex, 1);
+    }
+
     getNewQuestion();
   }
 
