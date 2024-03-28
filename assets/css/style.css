@@ -198,11 +198,27 @@ h2 {
 }
 /*Style model content*/
 .modal-content {
-  background-color: var(--white);
-  margin: 15% auto; /* Center modal vertically and horizontally */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--orange);
   padding: 20px;
   border: 1px solid var(--grey);
   width: 80%;
+  text-align: center;
+
+  /*Increase font size for text in modal*/
+}
+#rules {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+#rules-text {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bolder;
 }
 /*Style close button for modal*/
 .close {
@@ -250,6 +266,13 @@ h2 {
   /* Ensure the last button doesn't have extra margin */
   .btn-group button:last-child {
     margin-right: 0;
+  }
+  /*Increase font size for text in modal*/
+  #rules {
+    font-size: 22px;
+  }
+  #rules-text {
+    font-size: 20px;
   }
 }
 /* Media queries for screens up to 799px */
@@ -338,6 +361,14 @@ h2 {
   /*Increase font size for navbar logo an dmenu*/
   .navbar-logo,
   .navbar-menu ul li a {
+    font-size: 40px;
+  }
+  /*Increase font size for text in modal*/
+  #rules {
+    font-size: 45px;
+    margin-bottom: 50px;
+  }
+  #rules-text {
     font-size: 40px;
   }
 }
