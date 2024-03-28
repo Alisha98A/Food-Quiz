@@ -328,7 +328,11 @@ button[type="submit"]:hover {
   text-align: center;
   font-weight: bold;
 }
-
+/*Home page button on 404 page*/
+#homepageBtn {
+  margin-top: 30px;
+  font-size: 20px;
+}
 @media (min-width: 350px) {
   /*Change font size for body content*/
   body {
