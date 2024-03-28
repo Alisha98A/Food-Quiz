@@ -47,7 +47,9 @@ document.getElementById("scoreboardBtn").addEventListener("click", function () {
     // Generate HTML to display high scores
     const highScoreHTML = currentHighScores
       .map((scoreObj, index) => {
-        return `<p>${index + 1}. ${scoreObj.name}: ${scoreObj.score}</p>`;
+        return `<p class="high-score">${index + 1}. ${scoreObj.name}: ${
+          scoreObj.score
+        }</p>`;
       })
       .join("");
 
