@@ -78,17 +78,35 @@ document.addEventListener("DOMContentLoaded", function () {
     getNewQuestion();
   }
 
-  // Function to start the timer
+  // Function to start the timer with visual effects
   function startTimer() {
     clearInterval(timerInterval); // Clear existing timer interval
 
     let timeLeft = questionTime;
 
-    timerDisplay.textContent = timeLeft;
-
     timerInterval = setInterval(() => {
       timeLeft--;
       timerDisplay.textContent = timeLeft;
+
+      // Add visual effects when timer is about to end
+      if (timeLeft <= 5) {
+        timerDisplay.style.color = "#ff0000"; // Change color to red
+        timerDisplay.style.fontWeight = "bold"; // Make the text bold
+      } else {
+        timerDisplay.style.color = ""; // Reset color
+        timerDisplay.style.fontWeight = ""; // Reset font weight
+      }
+
+      // Flashing effect when timer is about to end
+      if (timeLeft <= 3) {
+        if (timerDisplay.style.visibility === "hidden") {
+          timerDisplay.style.visibility = "visible";
+        } else {
+          timerDisplay.style.visibility = "hidden";
+        }
+      } else {
+        timerDisplay.style.visibility = "visible"; 
+      }
 
       if (timeLeft === 0) {
         clearInterval(timerInterval);
