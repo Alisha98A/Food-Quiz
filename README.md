@@ -2,12 +2,9 @@
 
 Welcome to the Food Quiz project! With this interactive and entertaining quiz you can test your knowledge of different cuisines, ingredients and culinary traditions from around the world. Whether you're a seasoned foodie or just someone who likes to explore different flavors, this quiz will tantalize your taste buds and challenge your culinary knowledge.
 
+
+![Responsice Mockup](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/responsive_mockup.png)
 Visit the deployed site: [Food Quiz](https://alisha98a.github.io/Food-Quiz/)
-
-![Responsice Mockup](https://ui.dev/amiresponsive)
-
-
-
 
 This project was created with HTML5, CSS3 and JavaScript for the " Diploma in Web Application Development" course at Code Institute.
 
@@ -105,6 +102,30 @@ Wireframes were created for mobile, tablet and desktop using [Figma](https://www
 
 ## Features
 ### Existing Features
+
+The home page
+Navigation Bar
+![Navigation Bar](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/navigation_bar.png)
+
+![Oval Circle](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/oval_circle.png)
+
+![Outer container](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/outer_container.png)
+
+![Game Rules Modal](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/modal.png)
+
+
+![Quizl](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/quiz.png)
+
+![Times upl](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/times_up.png)
+![Endpage scoresl](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/scores_endpage.png)
+![Only letters input](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/only_letters_input.png)
+![Maximum wordsl](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/maximum_words_submit_form.png)
+
+![Scoreboardl](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/scoreboard.png)
+![404 pagel](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/404.png)
+
+
+
 
 - **Engaging interface:** The quiz has a user-friendly interface that provides a seamless and enjoyable experience for players of all ages.
 - **Interactive Gameplay:**  Immerse yourself in a series of thought-provoking questions that will whet your appetite for culinary knowledge. Each question is carefully crafted to keep you engaged and entertained.
@@ -254,53 +275,3 @@ We welcome contributions from fellow food enthusiasts and developers who share o
 
 ### Media
   -  Learned how to make a image background responsive from [Cem Eygi Media's Youtube video](https://www.youtube.com/watch?v=vimZLEd702Y)
-
-
-
-
-
-
-
-
---------------------------------------------------------------------------------------
-BELOW IS EARLIER CONTENT
-
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome,
-
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
