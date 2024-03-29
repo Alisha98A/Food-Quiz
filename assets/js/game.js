@@ -306,6 +306,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("save-score-form");
     form.addEventListener("submit", handleScoreForm);
   }
+
   // Function to handle form submission and store score
   function handleScoreForm(e) {
     e.preventDefault();
@@ -342,5 +343,11 @@ document.addEventListener("DOMContentLoaded", function () {
       currentHighScores.push(newObject);
       localStorage.setItem("foodQuiz", JSON.stringify(currentHighScores));
     }
+
+    // Remove the name input and show a thank you message
+    nameInput.style.display = "none";
+    const thankYouMessage = document.createElement("p");
+    thankYouMessage.textContent = "Thank you for playing!";
+    e.target.appendChild(thankYouMessage);
   }
 });
