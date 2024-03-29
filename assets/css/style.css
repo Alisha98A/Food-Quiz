@@ -449,12 +449,14 @@ button[type="submit"]:hover {
   /*Change font size for body content*/
   body {
     font-size: 2rem;
+    margin: 0; /* Remove default margin */
   }
   /*Increase size for header with oval circle, add margin from top*/
   .oval-circle {
     padding: 150px;
     font-size: 30px;
-    margin-top: 50px;
+    margin-top: 500px;
+    margin-bottom: 100px;
   }
   .btn-group button {
     margin-top: 20px;
