@@ -299,7 +299,7 @@ button[type="submit"]:hover {
   margin-bottom: 20px;
   font-size: 20px;
 }
-#rules-text {
+.rules-text {
   margin-top: 30px;
   margin-bottom: 10px;
   font-size: 18px;
