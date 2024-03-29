@@ -345,7 +345,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Remove the name input and show a thank you message
+    // Source link: https://stackoverflow.com/questions/17106885/disable-submit-button-only-after-submit
     nameInput.style.display = "none";
+    const nameLabel = e.target.querySelector("label");
+    nameLabel.style.display = "none";
+    const submitButton = e.target.querySelector("button"); //
+    submitButton.style.display = "none";
     const thankYouMessage = document.createElement("p");
     thankYouMessage.textContent = "Thank you for playing!";
     e.target.appendChild(thankYouMessage);
