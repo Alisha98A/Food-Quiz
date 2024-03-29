@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       question: "Which of the following is a type of pasta?",
       options: ["Tofu", " Quinoa", "Linguine", "Couscous"],
-      answer: 3,
+      answer: 2,
     },
     {
       question:
