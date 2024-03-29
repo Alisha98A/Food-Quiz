@@ -1,4 +1,4 @@
-# Food Quiz: A Deliciously Interactive Experience
+# [Food Quiz](https://alisha98a.github.io/Food-Quiz/): A Deliciously Interactive Experience
 
 Welcome to the Food Quiz project! With this interactive and entertaining quiz you can test your knowledge of different cuisines, ingredients and culinary traditions from around the world. Whether you're a seasoned foodie or just someone who likes to explore different flavors, this quiz will tantalize your taste buds and challenge your culinary knowledge.
 
@@ -250,7 +250,7 @@ Please refer to the file [TESTING.md](TESTING.md) for all tests performed.
 - - -
 
   ## Contributions:
-We welcome contributions from fellow food enthusiasts and developers who share our passion for creating engaging and educational experiences. Whether you have ideas for new quiz questions, suggestions for improving the user interface, or code improvements to optimize performance, I would love to hear from you. Fork the repository, make your changes and submit a pull request (or, fill in the feedback form at the [deployed site](www.link.com)) – together we can make the Food Quiz project even more delicious!
+We welcome contributions from fellow food enthusiasts and developers who share our passion for creating engaging and educational experiences. Whether you have ideas for new quiz questions, suggestions for improving the user interface, or code improvements to optimize performance, I would love to hear from you. Fork the repository, make your changes and submit a pull request  – together we can make the Food Quiz project even more delicious!
 
 - - -
 ## Credits
