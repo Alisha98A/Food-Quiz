@@ -14,16 +14,66 @@
 ## AUTOMATED TESTING
 
 ### W3C Validator
+[W3C](https://validator.w3.org/) was used to validate HTML and CSS on all pages
+
+HTML
+* [index.html](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/index_html.png) - Passed
+* [game.html](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/game_html.png) - Passed
+* [404.html](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/404_html.png) - Passed.
+
+CSS
+* [style.css](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/w3_css.png) - Passed
 
 - - -
 
 ### JavaScript Validator
-
+* [script.js](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/js_script.png) -Passed
+* [game.js](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/js_game.png) - Passed
+  
 - - -
 
 ### Lighthouse
+
  
+I employed Lighthouse through Chrome Developer Tools to evaluate the website's performance, accessibility, adherence to best practices, and SEO.
+
+### Desktop Results
+
+Both homepage and gamepage achieves a score of 100 across the 4 categories. The 404 page achieves 98 on performance and 94 on best practises. Homepage and gamepage achieves a score of 98 on Performance, and 100 on Best Practises
+
+![index.html](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/lighthouse_home_desktop.png)
+
+![game.html](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/lighthouse_game_desktop.png)
+
+![404.html](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/lighthouse_desktop_404.png)
+
+### Mobile Results
+
+All pages are achieving a score of 100 on Accessibility and SEO. Homepage and Gamepage achieves a score of 98 on Performance. The 404 page achieves a score of 100 on performance and 92 on Best Practices.
+
+![index.html](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/lighthouse_home_mobile.png)
+![game.html](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/lighthouse_game_mobile.png)
+![404.html](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/lighthouse_404_mobile.png)
+
+- - -
+
 ## MANUAL TESTING
+
+### Testing User Stories
+`First Time Visitors`
+
+| Goals | How are they achieved? |
+| :--- | :--- |
+| I'm eager to engage in an engaging online food quiz to broaden my culinary knowledge. I seek the convenience of being able to participate from anywhere, at any time.| The Food Quiz provides general questions about food from all over the world. The quiz can be played from anywhere and whenever the user wants to. |
+| Clear and concise instructions on how to play the game are essential to me. | I have created a modul for Game Rules which is easy accessible for the user to look at before the quiz starts |
+| I expect the website to adapt seamlessly to my device. | The site have been made responsive trough different screen sizes |
+| Navigating through the website should be intuitive and straightforward. | Clear and consice instructions/buttons and color make it easy to navigate |
+
+`Frequent Visitors`
+
+| Goals | How are they achieved? |
+| :--- | :--- |
+| Tracking my scores over time is important to me, allowing me to monitor my performance and progress.| Users are able to log their high scores to the high scores page. The top ten results will be displayed. |
 
 To ensure optimal responsiveness on different screen sizes and devices, I thoroughly checked each page, including the homepage, the game page and the 404 error page, using Google Chrome Developer Tools and the Firefox Inspector tool. This allowed me to identify any potential display inconsistencies.
 
@@ -31,8 +81,7 @@ Testing continued rigorously throughout the development phase. I relied on the C
 
 I also used the console in the developer tools to closely examine sections of the JavaScript code and fix bugs. This approach allowed for thorough testing and ensured that the code worked smoothly and any issues encountered were quickly resolved.
 
-### Testing User Stories
-
+- - -
 
 ### Full Testing
 
