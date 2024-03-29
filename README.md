@@ -21,7 +21,7 @@ This project was created with HTML5, CSS3 and JavaScript for the " Diploma in We
   * [Features](#features)
     * [The Home Page](#the-home-page)
     * [The Game Page](#the-quiz-page)
-    * [The High Scores Page](#the-high-scores-page)
+    * [Scoreboard](#scoreboard)
     * [The 404 Error Page](#the-404-error-page)
     * [Future Implementations](#future-implementations)
   * [Accessibility](#accessibility)
@@ -103,30 +103,6 @@ Wireframes were created for mobile, tablet and desktop using [Figma](https://www
 ## Features
 ### Existing Features
 
-The home page
-Navigation Bar
-![Navigation Bar](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/navigation_bar.png)
-
-![Oval Circle](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/oval_circle.png)
-
-![Outer container](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/outer_container.png)
-
-![Game Rules Modal](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/modal.png)
-
-
-![Quizl](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/quiz.png)
-
-![Times upl](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/times_up.png)
-![Endpage scoresl](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/scores_endpage.png)
-![Only letters input](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/only_letters_input.png)
-![Maximum wordsl](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/maximum_words_submit_form.png)
-
-![Scoreboardl](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/scoreboard.png)
-![404 pagel](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/404.png)
-
-
-
-
 - **Engaging interface:** The quiz has a user-friendly interface that provides a seamless and enjoyable experience for players of all ages.
 - **Interactive Gameplay:**  Immerse yourself in a series of thought-provoking questions that will whet your appetite for culinary knowledge. Each question is carefully crafted to keep you engaged and entertained.
 - **Diverse categories:**  Explore a wide range of culinary topics, including regional cuisines, exotic ingredients, famous dishes and culinary trivia.
@@ -136,9 +112,100 @@ Navigation Bar
 - **Vibrant visuals:** Immerse yourself in the colorful world of food with captivating visuals that will leave you wanting more.
 - **Responsive design:** Whether you're playing on a desktop computer, tablet or smartphone, the quiz is optimized for all screen sizes, ensuring a consistent and enjoyable experience across all devices.
 
+- - -
+
+#### THE HOME PAGE
+
+- **Navigation Bar**
+  - Featured on homepage, gamepage and 404 error page. The navigation bar is responsive & include links to Logo to the left, and Game to the right (on bigger screens), or logo stacked on top of menu (on smaller screens). When clicking on logo, you get redirected to the homepage. No matter which page you're on. Same goes for the Game link, but instead, it takes you directly to the Quiz. 
+  - Navigation bar is identical on all pages for easy navigation, meaning, you can navigate from whatever page you're currently at. Without having to go through the "back" button.
+  - When hovering over the object, it gets slightly bigger to show that it's a clickable link.
+ 
+![Navigation Bar](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/navigation_bar.png)
+
+- **Welcome content**
+  - After the navigation bar, the oval circle is displayed right below as the first content.
+  - Purpose of this feature is to capture the user's attention.
+  - The text "Welcome to the Food Quiz! Test your general knowledge in food" describes very well what the site is about. It introduces the user to the website in an exciting way since it makes a great header!
+  - The oval circle is surrounded by a black shadow to make it look better.
+  - Background color is set to green for a more playful experience.
+  
+
+![Oval Circle](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/oval_circle.png)
+
+- **Actual content**
+  - Below the oval circle, comes a rectangle with the actual content.
+  - Background color is set to green here as well to maintain the structure.
+  - The text is kept short for simplicity, with an introcution for the user to get tempted to play, and quick directions to get started.
+  - There are 3 orange buttons at the end of the content, stacked vertically for smaller screen sizes and horizontally for bigger screen sizes.
+  -The buttons is informative, the Play button takes you to the game page when clicking on it, and when clicking on Game Rules button, a modal will show up with the Game Rules content. When clicking on the Scoreboard button, the content inside the rectange will change and show high scores.
+- The buttons are light orange, when hovering over, the pointer symbol shows up and they change color to become sligthly darker. This is to strengthen the message that these buttons are clickable. 
+![Outer container](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/outer_container.png)
+
+- **Game Rules Modal**
+  - For the modal to be displayed, you simply click on Game Rules button on the homepage.
+  - The modal simply shows the game rules for the game. With a simple header and text.
+  - Background color is set to orange (same as the buttons) to show it's a modal.
+  - To leave this modal, you simply click on the 'x' symbol on the top right or outside the orange box. 
+    
+![Game Rules Modal](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/modal.png)
+
+
+
+#### THE QUIZ PAGE
+
+- **Quiz**
+  - On the game page, the quiz is in the same green rectangle as the content on the homepage. Only difference is that we removed earlier content and put in a quiz instead.
+  - In the navigation bar, the 'Game' text is replaced by 'Click to restart' to make it clear for the user that if that link is clicked, it's going to restart the game. 
+  - The quiz contains 4 multi-choices for 1 question each. The question is displayed on top, followed by the answers, displayed like a column.
+  - The answer buttons have a hovering effect, when hovering over, the button gets lighter.
+  - When clicking on the correct answer, the answer button gets green to show that it's correct.
+  - When clicking on the incorrect answer, the button clicked on gets red to show it's incorrect. In addition, the correct answer is displayed in green at the same time, to reveal what the correct answer was.
+  - Straight below the multi-answers is an orange button link saying "Back to homepage". If the user clicks on that button, he/she gets redirected back to homepage. The button have same features as the buttons on the home page (hovering over effect), to make it simple and easy to recognize.
+
+
+![Quizl](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/quiz.png)
+
+  - On the left side of the quiz, there is a Timer feature, showing the time left for the question with a countdown from 15 seconds. When the timer goes down to 5, the numbers turn red and bold, and when its 3 seconds left, the numbers are 'shaking', with the purpose to get the users attention and to cause stress, since it's a game. When time is up, the question showed will be replaced by the text 'Time's up! Next question...'. And a new question will pop up quickly after, restoring the timer countdown for the next question. And so it goes on..
+- Below the timer, there is a text of 'Score' with value displayed. At the beginning, it shows 'Score: 0'. But for every correct answer, the value immediately changes to +10. The value is in a different color to show the user that it's counting.
+
+![Times upl](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/times_up.png)
+
+
+- **Endgame**
+  - When the quiz ends, a white/grey box shows up displaying 'Congratulations, you scored x', to quickly show the user how many points they made.
+  - User also get the opportunity to save the scores, by filling in their name and clicking on the Submit button. The high scores will be saved locally.
+  - There are 2 buttons, same feature and style as the ones at the homepage (for simplicity and recognition). The first button says 'Play again?' and the other says 'Back to homepage'. Making it easy for the user to navigate to the desired destination.
+  
+![Endpage scoresl](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/scores_endpage.png)
+
+  - This feature prevents the user from typing in things that are not allowed, for example: when typing in numbers, there is a popup saying that numbers are not allowed. 
+![Only letters input](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/only_letters_input.png)
+
+  - There is also a maximum of 20 characters, when user types in beyond that, it will prevent you from submitting. 
+![Maximum wordsl](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/maximum_words_submit_form.png)
+
+#### SCOREBOARD
+  - The scoreboard is accessible through the homepage 'Scoreboard' link.
+  - The earlier content is removed and replaced with 'High Scores' displayed in the oval circle. And the scores is displayed in the rectangle.
+  - 'No high scores yet' will be showed if nothing is saved to the local storage. Otherwise, the last 10 high scores will show up. The reason it's only 10 is because more than that will make the scoreboard messy. The highest score will show at the top.
+  
+![Scoreboardl](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/scoreboard.png)
+
+#### THE 404 ERROR PAGE
+  - The 404 error page is there in case user gets lost or some link is broken. 
+  - It contains navigation bar, for the user to easily navigate back to the game or the homepage.
+  - It also have a big text to get the user's attention, with a button link that goes back to the homepage (this button is more visible than the one in the navigation bar).
+   
+![404 pagel](https://github.com/Alisha98A/Food-Quiz/blob/main/documentation/404.png)
+
+
 #### Future Implementations
 
-In future implementations I would like to:
+In future implementations I would like to: 
+  - Create difficulty levels, 'Easy' for a quiz of 15 questions, 'Medium' for a quiz of 30 questions and 'Hard' for a quiz of 45 questions.
+  - Add features to the scoring, for example, if answer is incorrect or time runs out, you get minus points. Also, the faster you answer the higher score you get. For example if you answer on less than 5 seconds, you get double points etc. This features will add to the experience of the game and make it more fun and addictive to play.
+  - Create a modal for the 'Click to restart' link in the navigation bar at the game page, where the user has to click on the modal and click on the link inside if they really want to restart the game. This is to increase the user experience, where the user has the option to choose before leaving the current game.  
 
 ### Accessibility
 
@@ -164,7 +231,9 @@ HTML, CSS, Javascript
 
 * [Github](https://github.com/) - To save and store the files for the website.
 
-* [GitPod](https://gitpod.io/) - IDE used to create the site.
+* [GitPod](https://gitpod.io/) - To clone and show for tutoring assistance
+  
+* [VS Code](https://code.visualstudio.com/) - IDE used to create the site
 
 * [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
 
@@ -257,7 +326,11 @@ We welcome contributions from fellow food enthusiasts and developers who share o
 
 ### General reference
 - This project was inspired by my love of food and my desire to share this passion with others. I wholeheartedly thank the contributors and sources of inspiration who helped me bring this project to life.
+-  This project was influenced by Love Math, a code-along project from Code Institute. By trying to understand the underlying principles I have tried to adapt them to my own project. However, this might involve using similar container elements, semantic tags etc.
+- I relied very much upon Code Institute's learning material, together with MDN and W3Schools.
+- Code Institute Slack Community has been a big support for clarifications on things or helping me solve bugs. 
 - Got help with README.md structure from [Kera's README file](https://github.com/kera-cudmore/readme-examples/edit/main/README.md)
+
 
 
 ### Content
@@ -271,7 +344,11 @@ We welcome contributions from fellow food enthusiasts and developers who share o
   - [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) on how to use modals.
   - Learned how to close modal if the user clicks outside of its content. [Wordpress](https://wordpress.org/support/topic/how-to-close-a-popup-when-clicking-outside-of-it/)
   - Adapted opacity from [Developer mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity) (stling in CSS)
-  - Function to handle form submission and store score, solved it with help from Matt, my mentor. 
+  - Function to handle form submission and store score, solved it with help from Matt, my mentor.
+  - [James Q Quick Youtube video](https://www.youtube.com/watch?v=_LYxkClHnV0&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=5) on how to display feedback for correct/incorrect answers
+  - [James Q Quick Youtube video](https://www.youtube.com/watch?v=DFhmNLKwwGw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=9) on how to save high scores in local storage
+  - [James Q Quick Youtube video](https://www.youtube.com/watch?v=jfOv18lCMmw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=10) on how to load and display high scores from local storage
+  - Took some of the questions for my quiz from [Buzzfeed](https://www.buzzfeed.com/laurafrustaci/50-food-trivia-questions-to-get-your-mouth-watering-and) and [Ricotta](https://www.ricotta.team/blog/food-trivia) and also asked [Open AI](https://chat.openai.com/) for question ideas
 
 ### Media
   -  Learned how to make a image background responsive from [Cem Eygi Media's Youtube video](https://www.youtube.com/watch?v=vimZLEd702Y)
